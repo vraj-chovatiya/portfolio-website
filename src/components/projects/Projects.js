@@ -16,7 +16,7 @@ const projects = [
         title: "Personal Portfolio",
         discription: "A showcase of my projects, skills, and professional experience as a web developer.",
         image: "https://i.imgur.com/vTUrDak.png",
-        github: "https://github.com/vraj-chovatiya/flipkart-clone"
+        github: "https://github.com/vraj-chovatiya/portfolio-website"
     },
     {
         id: 3,
