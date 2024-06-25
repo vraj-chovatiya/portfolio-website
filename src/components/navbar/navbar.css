@@ -1,0 +1,113 @@
+/* src/Navbar.css */
+@import url('https://fonts.googleapis.com/css2?family=Jacques+Francois&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: black;
+    color: white;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #0E0E0E;
+    padding: 23px 0;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    border-bottom: 1px solid #2A2A2A;
+    z-index: 1000;
+    /* box-shadow: 0 3px 15px rgba(255, 255, 255, 0.1); */
+    /* border: 1px solid red; */
+}
+
+.navbar-logo {
+    color: #fff;
+    font-size: 24px;
+    font-family: "Jacques Francois", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.navbar-toggle {
+    display: none;
+    font-size: 24px;
+    color: white;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.navbar-links {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-links li {
+    margin: 0 15px;
+}
+
+.navbar-links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 17px;
+    transition: color 0.3s;
+    font-family: "Tinos", serif;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 1.5;
+}
+
+.navbar-links a:hover {
+    color: #aaa;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    .navbar .nav-responsive{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+    }
+
+    .navbar-logo {
+        margin-left: 20px;
+    }
+    
+    .navbar-toggle {
+        margin-right: 20px;
+    }
+
+    .navbar-toggle {
+        display: block;
+    }
+    
+    .navbar-links {
+        margin-top: 20px;
+        flex-direction: column;
+        width: 100%;
+        display: none;
+    }
+
+    .navbar-links.open {
+        display: flex;
+    }
+
+    .navbar-links li {
+        margin: 10px 0;
+        text-align: center;
+        width: 100%;
+    }
+}
