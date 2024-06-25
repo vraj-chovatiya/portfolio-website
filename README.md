@@ -2,8 +2,8 @@
 
 <!-- ![Portfolio Banner]("https://i.imgur.com/vTUrDak.png") -->
 ![alt text](https://i.imgur.com/xNtQUht.png)
-![alt text](https://i.imgur.com/vTUrDak.png)
-![alt text](https://i.imgur.com/GuJ5x40.png)
+<!-- ![alt text](https://i.imgur.com/vTUrDak.png) -->
+<!-- ![alt text](https://i.imgur.com/GuJ5x40.png) -->
 
 Welcome to my portfolio website! This project showcases my skills and projects as a dedicated ReactJS developer, highlighting my expertise in building seamless and visually appealing web applications. The site is designed to be easy to navigate, providing a comprehensive overview of my work and experience.
 
@@ -51,9 +51,6 @@ To run this project locally, follow these steps:
     ```sh
     npm start
     ```
-
-4. **Open your browser:**
-    <!-- Go to [http://localhost:1234](http://localhost:1234) to view the website. -->
 
 ## Contact
 
