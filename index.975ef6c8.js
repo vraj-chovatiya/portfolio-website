@@ -27313,6 +27313,18 @@ const App = ()=>{
                             fileName: "src/App.js",
                             lineNumber: 24,
                             columnNumber: 21
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Route), {
+                            path: "*",
+                            element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _homeDefault.default), {}, void 0, false, {
+                                fileName: "src/App.js",
+                                lineNumber: 26,
+                                columnNumber: 46
+                            }, void 0)
+                        }, void 0, false, {
+                            fileName: "src/App.js",
+                            lineNumber: 26,
+                            columnNumber: 21
                         }, undefined)
                     ]
                 }, void 0, true, {
@@ -27322,7 +27334,7 @@ const App = ()=>{
                 }, undefined),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _footerDefault.default), {}, void 0, false, {
                     fileName: "src/App.js",
-                    lineNumber: 26,
+                    lineNumber: 28,
                     columnNumber: 17
                 }, undefined)
             ]
@@ -56357,7 +56369,7 @@ const Contact = ()=>{
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jsxDevRuntime.Fragment), {
         children: [
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _framerMotion.motion).div, {
-                className: "heading",
+                className: "heading-contact",
                 ...fadeIn,
                 children: [
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {

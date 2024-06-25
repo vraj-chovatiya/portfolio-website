@@ -222,12 +222,12 @@ body {
 
 @media (width <= 768px) {
   .home {
-    padding: 0 10px;
+    padding: 0;
   }
 
   .home .content h1 {
     letter-spacing: 2px;
-    margin-bottom: 30px;
+    margin-bottom: -20px;
     font-size: 40px;
   }
 
@@ -448,10 +448,17 @@ h4:after {
   white-space: nowrap;
   scroll-behavior: smooth;
   -webkit-overflow-scrolling: touch;
-  padding-left: 0;
+  margin: 0;
+  padding: 0;
   list-style-type: none;
   display: flex;
   overflow-x: auto;
+}
+
+@media (width <= 768px) {
+  .about-container .languages ul {
+    flex-wrap: nowrap;
+  }
 }
 
 .about-container .languages ul::-webkit-scrollbar {
@@ -470,7 +477,7 @@ h4:after {
 
 .about-container .languages ul li {
   margin: 0 15px;
-  display: inline-block;
+  display: block;
 }
 
 .about-container .languages ul li p {
@@ -701,13 +708,13 @@ h4:after {
   }
 }
 
-.heading {
+.heading-contact {
   text-align: center;
   color: #fff;
   padding: 50px 0;
 }
 
-.heading h1 {
+.heading-contact h1 {
   letter-spacing: 1px;
   margin-bottom: -15px;
   font-family: Ubuntu, sans-serif;
@@ -716,7 +723,7 @@ h4:after {
   font-weight: 500;
 }
 
-.heading p {
+.heading-contact p {
   font-optical-sizing: auto;
   letter-spacing: 1px;
   margin-top: 20px;
@@ -884,6 +891,72 @@ button[type="submit"]:hover {
 
   .contact-info ul {
     padding: 5px 15px;
+  }
+}
+
+@media (width <= 1200px) {
+  .heading-contact h1 {
+    font-size: 2.2rem;
+  }
+
+  .heading-contact p {
+    font-size: .85rem;
+  }
+}
+
+@media (width <= 992px) {
+  .heading-contact {
+    padding: 40px 0;
+  }
+
+  .heading-contact h1 {
+    font-size: 2rem;
+  }
+
+  .heading-contact p {
+    font-size: .8rem;
+  }
+}
+
+@media (width <= 768px) {
+  .heading-contact {
+    padding: 30px 0;
+  }
+
+  .heading-contact h1 {
+    font-size: 1.8rem;
+  }
+
+  .heading-contact p {
+    font-size: .75rem;
+  }
+}
+
+@media (width <= 576px) {
+  .heading-contact {
+    padding: 20px 0;
+  }
+
+  .heading-contact h1 {
+    font-size: 1.6rem;
+  }
+
+  .heading-contact p {
+    font-size: .7rem;
+  }
+}
+
+@media (width <= 400px) {
+  .heading-contact {
+    padding: 15px 0;
+  }
+
+  .heading-contact h1 {
+    font-size: 1.4rem;
+  }
+
+  .heading-contact p {
+    font-size: .65rem;
   }
 }
 
@@ -1799,6 +1872,103 @@ button[type="submit"]:hover {
   font-size: 23px;
 }
 
+@media (width <= 768px) {
+  .timeline {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+
+  .timeline-item {
+    text-align: left;
+    width: 80%;
+    margin-bottom: 30px;
+  }
+
+  .timeline-item:after, .timeline:after {
+    display: none;
+  }
+
+  .timeline-item:nth-child(odd) {
+    right: 0;
+  }
+
+  .timeline-item:nth-child(2n) {
+    left: 0;
+  }
+
+  .timeline-content {
+    padding: 20px;
+  }
+}
+
+@media (width <= 1200px) {
+  .heading-edu h1 {
+    font-size: 2.2rem;
+  }
+
+  .heading-edu p {
+    font-size: .85rem;
+  }
+}
+
+@media (width <= 992px) {
+  .heading-edu {
+    padding: 40px 0;
+  }
+
+  .heading-edu h1 {
+    font-size: 2rem;
+  }
+
+  .heading-edu p {
+    font-size: .8rem;
+  }
+}
+
+@media (width <= 768px) {
+  .heading-edu {
+    padding: 30px 0;
+  }
+
+  .heading-edu h1 {
+    font-size: 1.8rem;
+  }
+
+  .heading-edu p {
+    font-size: .75rem;
+  }
+}
+
+@media (width <= 576px) {
+  .heading-edu {
+    padding: 20px 0;
+  }
+
+  .heading-edu h1 {
+    font-size: 1.6rem;
+  }
+
+  .heading-edu p {
+    font-size: .7rem;
+  }
+}
+
+@media (width <= 400px) {
+  .heading-edu {
+    padding: 15px 0;
+  }
+
+  .heading-edu h1 {
+    font-size: 1.4rem;
+  }
+
+  .heading-edu p {
+    font-size: .65rem;
+  }
+}
+
 .heading-experience {
   text-align: center;
   color: #fff;
@@ -1859,6 +2029,72 @@ button[type="submit"]:hover {
   color: #bbb;
   margin-bottom: 5px;
   font-size: 1rem;
+}
+
+@media (width <= 1200px) {
+  .heading-experience h1 {
+    font-size: 2.2rem;
+  }
+
+  .heading-experience p {
+    font-size: .85rem;
+  }
+}
+
+@media (width <= 992px) {
+  .heading-experience {
+    padding: 40px 0;
+  }
+
+  .heading-experience h1 {
+    font-size: 2rem;
+  }
+
+  .heading-experience p {
+    font-size: .8rem;
+  }
+}
+
+@media (width <= 768px) {
+  .heading-experience {
+    padding: 30px 0;
+  }
+
+  .heading-experience h1 {
+    font-size: 1.8rem;
+  }
+
+  .heading-experience p {
+    font-size: .75rem;
+  }
+}
+
+@media (width <= 576px) {
+  .heading-experience {
+    padding: 20px 0;
+  }
+
+  .heading-experience h1 {
+    font-size: 1.6rem;
+  }
+
+  .heading-experience p {
+    font-size: .7rem;
+  }
+}
+
+@media (width <= 400px) {
+  .heading-experience {
+    padding: 15px 0;
+  }
+
+  .heading-experience h1 {
+    font-size: 1.4rem;
+  }
+
+  .heading-experience p {
+    font-size: .65rem;
+  }
 }
 
 .heading-project {
