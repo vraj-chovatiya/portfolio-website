@@ -1,6 +1,7 @@
 # Portfolio Website
 
-![Portfolio Banner]("https://i.imgur.com/vTUrDak.png")
+<!-- ![Portfolio Banner]("https://i.imgur.com/vTUrDak.png") -->
+![alt text](https://i.imgur.com/vTUrDak.png)
 
 Welcome to my portfolio website! This project showcases my skills and projects as a dedicated ReactJS developer, highlighting my expertise in building seamless and visually appealing web applications. The site is designed to be easy to navigate, providing a comprehensive overview of my work and experience.
 
