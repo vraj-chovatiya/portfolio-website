@@ -49,7 +49,7 @@ const Contact = () => {
 
     return (
         <>
-            <motion.div className='heading' {...fadeIn}>
+            <motion.div className='heading-contact' {...fadeIn}>
                 <h1>Let's Connect</h1>
                 <p>Contact me for building any project or portfolio like this.</p>
             </motion.div>

@@ -5,6 +5,7 @@
     background-image: radial-gradient(rgba(255, 255, 255, 0.171) 2px, transparent 0);
     background-size: 30px 30px;
 }
+
 .heading-edu h1 {
     font-family: "Ubuntu", sans-serif;
     font-weight: 500;
@@ -27,7 +28,7 @@
 
 /* Container  */
 
-.container{
+.container {
     /* padding: 50px 0; */
 }
 
@@ -95,7 +96,7 @@
     letter-spacing: 1;
 }
 
-.timeline-content:hover{
+.timeline-content:hover {
     box-shadow: 1px 1px 10px #ffffff76;
 }
 
@@ -111,4 +112,109 @@
 .timeline-content .highlight {
     color: #99b659;
     font-size: 23px;
+}
+
+
+@media (max-width: 768px){
+
+    .timeline{
+        display: flex;
+        flex-direction: column;
+        /* border: 2px solid red; */
+        justify-content: center;
+        align-items: center;
+    }
+
+    .timeline-item {
+        width: 80%;
+        text-align: left;
+        margin-bottom: 30px;
+    }
+
+    .timeline-item::after {
+        display: none;
+    }
+
+    .timeline::after{
+        display: none;
+    }
+
+    .timeline-item:nth-child(odd) {
+        right: 0;
+    }
+
+    .timeline-item:nth-child(even) {
+        left: 0;
+    }
+
+    .timeline-content {
+        padding: 20px 20px;
+    }
+}
+
+
+@media (max-width: 1200px) {
+    .heading-edu h1 {
+        font-size: 2.2rem;
+    }
+
+    .heading-edu p {
+        font-size: 0.85rem;
+    }
+}
+
+@media (max-width: 992px) {
+    .heading-edu {
+        padding: 40px 0px;
+    }
+
+    .heading-edu h1 {
+        font-size: 2rem;
+    }
+
+    .heading-edu p {
+        font-size: 0.8rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .heading-edu {
+        padding: 30px 0px;
+    }
+
+    .heading-edu h1 {
+        font-size: 1.8rem;
+    }
+
+    .heading-edu p {
+        font-size: 0.75rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .heading-edu {
+        padding: 20px 0px;
+    }
+
+    .heading-edu h1 {
+        font-size: 1.6rem;
+    }
+
+    .heading-edu p {
+        font-size: 0.7rem;
+    }
+}
+
+@media (max-width: 400px) {
+    .heading-edu {
+        padding: 15px 0px;
+    }
+
+    .heading-edu h1 {
+        font-size: 1.4rem;
+    }
+
+    .heading-edu p {
+        font-size: 0.65rem;
+    }
 }

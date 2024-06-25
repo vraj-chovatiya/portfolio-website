@@ -179,17 +179,29 @@ h4::after {
     letter-spacing: 1px;
     margin-bottom: 10px;
 }
-
 .about-container .languages ul {
     display: flex;
     list-style-type: none;
     padding-left: 0;
     overflow-x: auto;
+    /* Enable horizontal scrolling */
     white-space: nowrap;
+    /* Prevent wrapping of items */
     scroll-behavior: smooth;
     -webkit-overflow-scrolling: touch;
+    margin: 0;
+    /* Remove default margin */
+    padding: 0;
+    /* Remove default padding */
 }
 
+/* Media query for mobile devices */
+@media (max-width: 768px) {
+    .about-container .languages ul {
+        flex-wrap: nowrap;
+        /* Ensure items stay in a single row */
+    }
+}
 .about-container .languages ul::-webkit-scrollbar {
     height: 8px;
 }
@@ -205,7 +217,7 @@ h4::after {
 }
 
 .about-container .languages ul li {
-    display: inline-block;
+    display: block;
     margin: 0 15px;
 }
 
