@@ -11,7 +11,7 @@ const ParticlesBackground = (props) => {
     useEffect(() => {
         initParticlesEngine(async (engine) => {
             await loadSlim(engine);
-            //await loadBasic(engine);
+            // await loadBasic(engine);
         }).then(() => {
             setInit(true);
         });
