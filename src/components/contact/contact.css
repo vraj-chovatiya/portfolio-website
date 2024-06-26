@@ -192,8 +192,9 @@ button[type="submit"]:hover {
 @media (max-width: 768px) {
     .contact-container {
         flex-direction: column;
-        /* align-items: center; */
         margin-left: 10px;
+        /* border: 1px solid red; */
+        padding-top: 10;
     }
 
     .contact-form,
@@ -202,7 +203,8 @@ button[type="submit"]:hover {
     }
 
     .contact-info {
-        margin-top: 40px;
+        display: none;
+        /* margin-top: 40px; */
     }
 
     .contact-info ul{
