@@ -879,6 +879,7 @@ button[type="submit"]:hover {
   .contact-container {
     flex-direction: column;
     margin-left: 10px;
+    padding-top: 10px;
   }
 
   .contact-form, .contact-info {
@@ -886,7 +887,7 @@ button[type="submit"]:hover {
   }
 
   .contact-info {
-    margin-top: 40px;
+    display: none;
   }
 
   .contact-info ul {
