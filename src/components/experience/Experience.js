@@ -2,7 +2,6 @@ import React from 'react';
 import './experience.css';
 import { color, motion, useAnimation } from 'framer-motion';
 
-
 const experiences = [
     {
         company: 'Varni Infotech',

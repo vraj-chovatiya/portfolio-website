@@ -2,7 +2,6 @@ import React from 'react';
 import './education.css';
 import { color, motion, useAnimation } from 'framer-motion';
 
-
 const Education = () => {
 
     const fadeIn = {
@@ -13,7 +12,6 @@ const Education = () => {
 
     return (
         <>
-
             <motion.div className="heading-edu" {...fadeIn}>
                 <h1>Here's My Education</h1>
                 <p>Here's the information about my educational background...</p>

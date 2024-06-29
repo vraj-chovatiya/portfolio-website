@@ -46,7 +46,6 @@ const Contact = () => {
     //     setMessageSent(false);
     // };
 
-
     return (
         <>
             <motion.div className='heading-contact' {...fadeIn}>
