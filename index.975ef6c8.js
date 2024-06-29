@@ -56376,25 +56376,25 @@ const Contact = ()=>{
                         children: "Let's Connect"
                     }, void 0, false, {
                         fileName: "src/components/contact/Contact.js",
-                        lineNumber: 53,
+                        lineNumber: 52,
                         columnNumber: 17
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                         children: "Contact me for building any project or portfolio like this."
                     }, void 0, false, {
                         fileName: "src/components/contact/Contact.js",
-                        lineNumber: 54,
+                        lineNumber: 53,
                         columnNumber: 17
                     }, undefined)
                 ]
             }, void 0, true, {
                 fileName: "src/components/contact/Contact.js",
-                lineNumber: 52,
+                lineNumber: 51,
                 columnNumber: 13
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("hr", {}, void 0, false, {
                 fileName: "src/components/contact/Contact.js",
-                lineNumber: 56,
+                lineNumber: 55,
                 columnNumber: 13
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _framerMotion.motion).div, {
@@ -56409,7 +56409,7 @@ const Contact = ()=>{
                                 children: "Contact Me"
                             }, void 0, false, {
                                 fileName: "src/components/contact/Contact.js",
-                                lineNumber: 59,
+                                lineNumber: 58,
                                 columnNumber: 21
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("form", {
@@ -56425,7 +56425,7 @@ const Contact = ()=>{
                                                 children: "Name"
                                             }, void 0, false, {
                                                 fileName: "src/components/contact/Contact.js",
-                                                lineNumber: 62,
+                                                lineNumber: 61,
                                                 columnNumber: 29
                                             }, undefined),
                                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
@@ -56435,13 +56435,13 @@ const Contact = ()=>{
                                                 required: true
                                             }, void 0, false, {
                                                 fileName: "src/components/contact/Contact.js",
-                                                lineNumber: 63,
+                                                lineNumber: 62,
                                                 columnNumber: 29
                                             }, undefined)
                                         ]
                                     }, void 0, true, {
                                         fileName: "src/components/contact/Contact.js",
-                                        lineNumber: 61,
+                                        lineNumber: 60,
                                         columnNumber: 25
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -56452,7 +56452,7 @@ const Contact = ()=>{
                                                 children: "Email"
                                             }, void 0, false, {
                                                 fileName: "src/components/contact/Contact.js",
-                                                lineNumber: 66,
+                                                lineNumber: 65,
                                                 columnNumber: 29
                                             }, undefined),
                                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
@@ -56462,13 +56462,13 @@ const Contact = ()=>{
                                                 required: true
                                             }, void 0, false, {
                                                 fileName: "src/components/contact/Contact.js",
-                                                lineNumber: 67,
+                                                lineNumber: 66,
                                                 columnNumber: 29
                                             }, undefined)
                                         ]
                                     }, void 0, true, {
                                         fileName: "src/components/contact/Contact.js",
-                                        lineNumber: 65,
+                                        lineNumber: 64,
                                         columnNumber: 25
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -56479,7 +56479,7 @@ const Contact = ()=>{
                                                 children: "Message"
                                             }, void 0, false, {
                                                 fileName: "src/components/contact/Contact.js",
-                                                lineNumber: 70,
+                                                lineNumber: 69,
                                                 columnNumber: 29
                                             }, undefined),
                                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("textarea", {
@@ -56489,13 +56489,13 @@ const Contact = ()=>{
                                                 required: true
                                             }, void 0, false, {
                                                 fileName: "src/components/contact/Contact.js",
-                                                lineNumber: 71,
+                                                lineNumber: 70,
                                                 columnNumber: 29
                                             }, undefined)
                                         ]
                                     }, void 0, true, {
                                         fileName: "src/components/contact/Contact.js",
-                                        lineNumber: 69,
+                                        lineNumber: 68,
                                         columnNumber: 25
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
@@ -56506,24 +56506,24 @@ const Contact = ()=>{
                                             children: "Send Message"
                                         }, void 0, false, {
                                             fileName: "src/components/contact/Contact.js",
-                                            lineNumber: 73,
+                                            lineNumber: 72,
                                             columnNumber: 87
                                         }, undefined)
                                     }, void 0, false, {
                                         fileName: "src/components/contact/Contact.js",
-                                        lineNumber: 73,
+                                        lineNumber: 72,
                                         columnNumber: 25
                                     }, undefined)
                                 ]
                             }, void 0, true, {
                                 fileName: "src/components/contact/Contact.js",
-                                lineNumber: 60,
+                                lineNumber: 59,
                                 columnNumber: 21
                             }, undefined)
                         ]
                     }, void 0, true, {
                         fileName: "src/components/contact/Contact.js",
-                        lineNumber: 58,
+                        lineNumber: 57,
                         columnNumber: 17
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _framerMotion.motion).div, {
@@ -56534,7 +56534,7 @@ const Contact = ()=>{
                                 children: "My Contact Information"
                             }, void 0, false, {
                                 fileName: "src/components/contact/Contact.js",
-                                lineNumber: 77,
+                                lineNumber: 76,
                                 columnNumber: 21
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
@@ -56545,10 +56545,26 @@ const Contact = ()=>{
                                                 children: "Phone:"
                                             }, void 0, false, {
                                                 fileName: "src/components/contact/Contact.js",
-                                                lineNumber: 79,
+                                                lineNumber: 78,
                                                 columnNumber: 29
                                             }, undefined),
                                             " +91 8866448029"
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "src/components/contact/Contact.js",
+                                        lineNumber: 78,
+                                        columnNumber: 25
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                        children: [
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("strong", {
+                                                children: "Email:"
+                                            }, void 0, false, {
+                                                fileName: "src/components/contact/Contact.js",
+                                                lineNumber: 79,
+                                                columnNumber: 29
+                                            }, undefined),
+                                            " vrajchovatiya11@gmail.com"
                                         ]
                                     }, void 0, true, {
                                         fileName: "src/components/contact/Contact.js",
@@ -56558,56 +56574,40 @@ const Contact = ()=>{
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
                                         children: [
                                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("strong", {
-                                                children: "Email:"
-                                            }, void 0, false, {
-                                                fileName: "src/components/contact/Contact.js",
-                                                lineNumber: 80,
-                                                columnNumber: 29
-                                            }, undefined),
-                                            " vrajchovatiya11@gmail.com"
-                                        ]
-                                    }, void 0, true, {
-                                        fileName: "src/components/contact/Contact.js",
-                                        lineNumber: 80,
-                                        columnNumber: 25
-                                    }, undefined),
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                        children: [
-                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("strong", {
                                                 children: "Address:"
                                             }, void 0, false, {
                                                 fileName: "src/components/contact/Contact.js",
-                                                lineNumber: 81,
+                                                lineNumber: 80,
                                                 columnNumber: 29
                                             }, undefined),
                                             " 51-52, Gopinath Soc., Katargam, Surat."
                                         ]
                                     }, void 0, true, {
                                         fileName: "src/components/contact/Contact.js",
-                                        lineNumber: 81,
+                                        lineNumber: 80,
                                         columnNumber: 25
                                     }, undefined)
                                 ]
                             }, void 0, true, {
                                 fileName: "src/components/contact/Contact.js",
-                                lineNumber: 78,
+                                lineNumber: 77,
                                 columnNumber: 21
                             }, undefined)
                         ]
                     }, void 0, true, {
                         fileName: "src/components/contact/Contact.js",
-                        lineNumber: 76,
+                        lineNumber: 75,
                         columnNumber: 17
                     }, undefined)
                 ]
             }, void 0, true, {
                 fileName: "src/components/contact/Contact.js",
-                lineNumber: 57,
+                lineNumber: 56,
                 columnNumber: 13
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactToastify.ToastContainer), {}, void 0, false, {
                 fileName: "src/components/contact/Contact.js",
-                lineNumber: 85,
+                lineNumber: 84,
                 columnNumber: 13
             }, undefined)
         ]
@@ -57627,20 +57627,20 @@ const Education = ()=>{
                         children: "Here's My Education"
                     }, void 0, false, {
                         fileName: "src/components/education/Education.js",
-                        lineNumber: 18,
+                        lineNumber: 16,
                         columnNumber: 17
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                         children: "Here's the information about my educational background..."
                     }, void 0, false, {
                         fileName: "src/components/education/Education.js",
-                        lineNumber: 19,
+                        lineNumber: 17,
                         columnNumber: 17
                     }, undefined)
                 ]
             }, void 0, true, {
                 fileName: "src/components/education/Education.js",
-                lineNumber: 17,
+                lineNumber: 15,
                 columnNumber: 13
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _framerMotion.motion).div, {
@@ -57658,21 +57658,21 @@ const Education = ()=>{
                                         children: "Year 2018"
                                     }, void 0, false, {
                                         fileName: "src/components/education/Education.js",
-                                        lineNumber: 25,
+                                        lineNumber: 23,
                                         columnNumber: 29
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
                                         children: "SSC"
                                     }, void 0, false, {
                                         fileName: "src/components/education/Education.js",
-                                        lineNumber: 26,
+                                        lineNumber: 24,
                                         columnNumber: 29
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                                         children: "Gurukul Vidhyapith Kumar Vidhyalaya, Katargam, Surat"
                                     }, void 0, false, {
                                         fileName: "src/components/education/Education.js",
-                                        lineNumber: 27,
+                                        lineNumber: 25,
                                         columnNumber: 29
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -57680,18 +57680,18 @@ const Education = ()=>{
                                         children: "Percentage: 59.9%"
                                     }, void 0, false, {
                                         fileName: "src/components/education/Education.js",
-                                        lineNumber: 28,
+                                        lineNumber: 26,
                                         columnNumber: 29
                                     }, undefined)
                                 ]
                             }, void 0, true, {
                                 fileName: "src/components/education/Education.js",
-                                lineNumber: 24,
+                                lineNumber: 22,
                                 columnNumber: 25
                             }, undefined)
                         }, void 0, false, {
                             fileName: "src/components/education/Education.js",
-                            lineNumber: 23,
+                            lineNumber: 21,
                             columnNumber: 21
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -57703,21 +57703,21 @@ const Education = ()=>{
                                         children: "Year 2020"
                                     }, void 0, false, {
                                         fileName: "src/components/education/Education.js",
-                                        lineNumber: 33,
+                                        lineNumber: 31,
                                         columnNumber: 29
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
                                         children: "HSC"
                                     }, void 0, false, {
                                         fileName: "src/components/education/Education.js",
-                                        lineNumber: 34,
+                                        lineNumber: 32,
                                         columnNumber: 29
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                                         children: "P.P. Savani Vidhyabhawan, Hirabaug, Surat."
                                     }, void 0, false, {
                                         fileName: "src/components/education/Education.js",
-                                        lineNumber: 35,
+                                        lineNumber: 33,
                                         columnNumber: 29
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -57725,18 +57725,18 @@ const Education = ()=>{
                                         children: "Percentage: 73.73%"
                                     }, void 0, false, {
                                         fileName: "src/components/education/Education.js",
-                                        lineNumber: 36,
+                                        lineNumber: 34,
                                         columnNumber: 29
                                     }, undefined)
                                 ]
                             }, void 0, true, {
                                 fileName: "src/components/education/Education.js",
-                                lineNumber: 32,
+                                lineNumber: 30,
                                 columnNumber: 25
                             }, undefined)
                         }, void 0, false, {
                             fileName: "src/components/education/Education.js",
-                            lineNumber: 31,
+                            lineNumber: 29,
                             columnNumber: 21
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -57748,21 +57748,21 @@ const Education = ()=>{
                                         children: "Year 2020-2023"
                                     }, void 0, false, {
                                         fileName: "src/components/education/Education.js",
-                                        lineNumber: 41,
+                                        lineNumber: 39,
                                         columnNumber: 29
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
                                         children: "Bachelor of Computer Application (BCA)"
                                     }, void 0, false, {
                                         fileName: "src/components/education/Education.js",
-                                        lineNumber: 42,
+                                        lineNumber: 40,
                                         columnNumber: 29
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                                         children: "Veer Narmad South Gujarat University, Surat"
                                     }, void 0, false, {
                                         fileName: "src/components/education/Education.js",
-                                        lineNumber: 43,
+                                        lineNumber: 41,
                                         columnNumber: 29
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -57770,18 +57770,18 @@ const Education = ()=>{
                                         children: "CGPA: 7.20"
                                     }, void 0, false, {
                                         fileName: "src/components/education/Education.js",
-                                        lineNumber: 44,
+                                        lineNumber: 42,
                                         columnNumber: 29
                                     }, undefined)
                                 ]
                             }, void 0, true, {
                                 fileName: "src/components/education/Education.js",
-                                lineNumber: 40,
+                                lineNumber: 38,
                                 columnNumber: 25
                             }, undefined)
                         }, void 0, false, {
                             fileName: "src/components/education/Education.js",
-                            lineNumber: 39,
+                            lineNumber: 37,
                             columnNumber: 21
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -57793,21 +57793,21 @@ const Education = ()=>{
                                         children: "Year2023- 2025"
                                     }, void 0, false, {
                                         fileName: "src/components/education/Education.js",
-                                        lineNumber: 49,
+                                        lineNumber: 47,
                                         columnNumber: 29
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
                                         children: "Master of Computer Application (MCA)"
                                     }, void 0, false, {
                                         fileName: "src/components/education/Education.js",
-                                        lineNumber: 50,
+                                        lineNumber: 48,
                                         columnNumber: 29
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                                         children: "Institute of Technology Nirma University, Ahmedabad."
                                     }, void 0, false, {
                                         fileName: "src/components/education/Education.js",
-                                        lineNumber: 51,
+                                        lineNumber: 49,
                                         columnNumber: 29
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -57815,29 +57815,29 @@ const Education = ()=>{
                                         children: "CGPA: 7.75"
                                     }, void 0, false, {
                                         fileName: "src/components/education/Education.js",
-                                        lineNumber: 52,
+                                        lineNumber: 50,
                                         columnNumber: 29
                                     }, undefined)
                                 ]
                             }, void 0, true, {
                                 fileName: "src/components/education/Education.js",
-                                lineNumber: 48,
+                                lineNumber: 46,
                                 columnNumber: 25
                             }, undefined)
                         }, void 0, false, {
                             fileName: "src/components/education/Education.js",
-                            lineNumber: 47,
+                            lineNumber: 45,
                             columnNumber: 21
                         }, undefined)
                     ]
                 }, void 0, true, {
                     fileName: "src/components/education/Education.js",
-                    lineNumber: 22,
+                    lineNumber: 20,
                     columnNumber: 17
                 }, undefined)
             }, void 0, false, {
                 fileName: "src/components/education/Education.js",
-                lineNumber: 21,
+                lineNumber: 19,
                 columnNumber: 13
             }, undefined)
         ]
@@ -57911,20 +57911,20 @@ const Experience = ()=>{
                         children: "Here's My Experience"
                     }, void 0, false, {
                         fileName: "src/components/experience/Experience.js",
-                        lineNumber: 38,
+                        lineNumber: 37,
                         columnNumber: 17
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                         children: "Here's the experience of my web development journey."
                     }, void 0, false, {
                         fileName: "src/components/experience/Experience.js",
-                        lineNumber: 39,
+                        lineNumber: 38,
                         columnNumber: 17
                     }, undefined)
                 ]
             }, void 0, true, {
                 fileName: "src/components/experience/Experience.js",
-                lineNumber: 37,
+                lineNumber: 36,
                 columnNumber: 13
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _framerMotion.motion).div, {
@@ -57937,7 +57937,7 @@ const Experience = ()=>{
                                 children: exp.company
                             }, void 0, false, {
                                 fileName: "src/components/experience/Experience.js",
-                                lineNumber: 44,
+                                lineNumber: 43,
                                 columnNumber: 25
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -57946,11 +57946,28 @@ const Experience = ()=>{
                                         children: "Role:"
                                     }, void 0, false, {
                                         fileName: "src/components/experience/Experience.js",
-                                        lineNumber: 45,
+                                        lineNumber: 44,
                                         columnNumber: 28
                                     }, undefined),
                                     " ",
                                     exp.role
+                                ]
+                            }, void 0, true, {
+                                fileName: "src/components/experience/Experience.js",
+                                lineNumber: 44,
+                                columnNumber: 25
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                children: [
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("strong", {
+                                        children: "TimeLine:"
+                                    }, void 0, false, {
+                                        fileName: "src/components/experience/Experience.js",
+                                        lineNumber: 45,
+                                        columnNumber: 28
+                                    }, undefined),
+                                    " ",
+                                    exp.timeLine
                                 ]
                             }, void 0, true, {
                                 fileName: "src/components/experience/Experience.js",
@@ -57960,27 +57977,10 @@ const Experience = ()=>{
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                                 children: [
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("strong", {
-                                        children: "TimeLine:"
-                                    }, void 0, false, {
-                                        fileName: "src/components/experience/Experience.js",
-                                        lineNumber: 46,
-                                        columnNumber: 28
-                                    }, undefined),
-                                    " ",
-                                    exp.timeLine
-                                ]
-                            }, void 0, true, {
-                                fileName: "src/components/experience/Experience.js",
-                                lineNumber: 46,
-                                columnNumber: 25
-                            }, undefined),
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                                children: [
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("strong", {
                                         children: "Location:"
                                     }, void 0, false, {
                                         fileName: "src/components/experience/Experience.js",
-                                        lineNumber: 47,
+                                        lineNumber: 46,
                                         columnNumber: 28
                                     }, undefined),
                                     " ",
@@ -57988,18 +57988,18 @@ const Experience = ()=>{
                                 ]
                             }, void 0, true, {
                                 fileName: "src/components/experience/Experience.js",
-                                lineNumber: 47,
+                                lineNumber: 46,
                                 columnNumber: 25
                             }, undefined)
                         ]
                     }, index, true, {
                         fileName: "src/components/experience/Experience.js",
-                        lineNumber: 43,
+                        lineNumber: 42,
                         columnNumber: 21
                     }, undefined))
             }, void 0, false, {
                 fileName: "src/components/experience/Experience.js",
-                lineNumber: 41,
+                lineNumber: 40,
                 columnNumber: 13
             }, undefined)
         ]
