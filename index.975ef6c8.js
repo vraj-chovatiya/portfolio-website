@@ -56580,7 +56580,7 @@ const Contact = ()=>{
                                                 lineNumber: 80,
                                                 columnNumber: 29
                                             }, undefined),
-                                            " 51-52, Gopinath Soc., Katargam, Surat."
+                                            " Surat, Gujarat."
                                         ]
                                     }, void 0, true, {
                                         fileName: "src/components/contact/Contact.js",
