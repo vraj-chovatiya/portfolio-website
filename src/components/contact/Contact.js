@@ -77,7 +77,7 @@ const Contact = () => {
                     <ul>
                         <li><strong>Phone:</strong> +91 8866448029</li>
                         <li><strong>Email:</strong> vrajchovatiya11@gmail.com</li>
-                        <li><strong>Address:</strong> 51-52, Gopinath Soc., Katargam, Surat.</li>
+                        <li><strong>Address:</strong> Surat, Gujarat.</li>
                     </ul>
                 </motion.div>
             </motion.div>
