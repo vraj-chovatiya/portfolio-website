@@ -81,7 +81,7 @@ const Contact = () => {
                     </ul>
                 </motion.div>
             </motion.div>
-            <ToastContainer />
+            <ToastContainer />z
 
             {/* // when message sent successfully toastify message will be shown */}
             {/* {messageSent && toast.success('Message Sent!')} */}
