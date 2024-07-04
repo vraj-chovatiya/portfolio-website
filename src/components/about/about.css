@@ -4,8 +4,8 @@
 .heading-about {
     text-align: center;
     padding: 50px 0px;
-    color: #fff;
-    background-color: #080808;
+    color: var(--primary-color);
+    background-color: var(--background);
     background-image:
         linear-gradient(0deg, transparent 24%, rgba(114, 114, 114, 0.3) 25%, rgba(114, 114, 114, 0.3) 26%, transparent 27%, transparent 74%, rgba(114, 114, 114, 0.3) 75%, rgba(114, 114, 114, 0.3) 76%, transparent 77%, transparent),
         linear-gradient(90deg, transparent 24%, rgba(114, 114, 114, 0.3) 25%, rgba(114, 114, 114, 0.3) 26%, transparent 27%, transparent 74%, rgba(114, 114, 114, 0.3) 75%, rgba(114, 114, 114, 0.3) 76%, transparent 77%, transparent);
@@ -21,7 +21,7 @@ hr {
 
 h4 {
     font-size: 1rem;
-    color: #007bff;
+    color: var(--blue);
     margin-bottom: 10px;
     font-weight: 300;
     letter-spacing: 1;
@@ -32,7 +32,7 @@ h4::after {
     display: block;
     width: 50px;
     height: 1px;
-    background: linear-gradient(90deg, yellow, #00d4ff);
+    background: var(--gradient);
     margin-top: 5px;
 }
 
@@ -57,8 +57,6 @@ h4::after {
 
 .about-content {
     display: flex;
-    /* flex-wrap: wrap; */
-    /* gap: 200px; */
     align-items: center;
 }
 
@@ -90,7 +88,6 @@ h4::after {
 .text h2 {
     font-size: 2rem;
     letter-spacing: 1;
-    /* margin-bottom: 10px; */
 }
 
 .text p {
@@ -104,17 +101,13 @@ h4::after {
 .download-button {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #007bff;
-    color: #fff;
+    background-color: var(--blue);
+    color: var(--primary-color);
     border: none;
     border-radius: 5px;
     font-size: 1rem;
     cursor: pointer;
     transition: background-color 0.3s ease;
-}
-
-.download-button:hover {
-    background-color: #0056b3;
 }
 
 
@@ -140,12 +133,11 @@ h4::after {
 
 .work-item h2 {
     font-size: 3rem;
-    background: linear-gradient(180deg, yellow, #00d4ff);
+    background: var(--gradient);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     margin-bottom: 10px;
     font-size: 4rem;
-    /* display: inline-block; */
 }
 
 .work-item p {
@@ -190,9 +182,7 @@ h4::after {
     scroll-behavior: smooth;
     -webkit-overflow-scrolling: touch;
     margin: 0;
-    /* Remove default margin */
     padding: 0;
-    /* Remove default padding */
 }
 
 /* Media query for mobile devices */
@@ -207,7 +197,7 @@ h4::after {
 }
 
 .about-container .languages ul::-webkit-scrollbar-thumb {
-    background-color: #007bff;
+    background-color: var(--blue);
     border-radius: 10px;
 }
 
@@ -232,7 +222,7 @@ h4::after {
 
 .about-container .languages h4 {
     font-size: 1rem;
-    color: #007bff;
+    color: var(--blue);
     margin-bottom: 10px;
     font-weight: 300;
     letter-spacing: 1px;
@@ -247,7 +237,7 @@ h4::after {
 
 .profile-links h4 {
     font-size: 1rem;
-    color: #007bff;
+    color: var(--blue);
     margin-bottom: 10px;
     font-weight: 300;
     letter-spacing: 1px;
@@ -266,7 +256,7 @@ h4::after {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background: #ffffff;
+    background: var(--primary-color);
     /* background: linear-gradient(90deg, rgb(184, 184, 184), rgb(184, 184, 184)); */
     /* background: linear-gradient(145deg, #333, #444); */
     color: white;
@@ -293,7 +283,7 @@ h4::after {
 
 .card-item a{
     text-decoration: none;
-    color: white;
+    color: var(--primary-color);
 
 }
 

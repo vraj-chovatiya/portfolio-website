@@ -2,19 +2,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
 
+
 .home {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     margin-top: 50px;
-    /* height: 100vh; */
-    /* width: 100%; */
     overflow: hidden;
-    background: black;
-    color: white;
+    background: var(--background);
+    color: var(--primary-color);
     padding: 0 20px;
-    /* border: 1px solid red; */
 }
 
 .home .content {
@@ -22,7 +20,6 @@
     text-align: center;
     margin-bottom: 20px;
     width: 75%;
-    /* border: 1px solid yellow; */
 }
 
 .home .content h1 {
@@ -35,7 +32,7 @@
 }
 
 .home .content h1 span {
-    background: linear-gradient(90deg, yellow, #00d4ff);
+    background: var(--gradient);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     animation: colorChange 5s infinite;
@@ -56,7 +53,7 @@
 .codepen-button {
     display: inline-block;
     cursor: pointer;
-    color: white;
+    color: var(--primary-color);
     margin: 0 auto;
     position: relative;
     text-decoration: none;
@@ -78,7 +75,7 @@
     /* border: 1px solid #00d4ff; */
     background: linear-gradient(115deg, #4fcf70, #fad648, #a767e5, #12bcfe, #44ce7b);
     /* background-color: #0E0E0E; */
-    background-color: black;
+    background-color: var(--background);
     background-size: 25% 100%;
     animation: an-at-keyframe-css-at-rule-that-translates-via-the-transform-property-the-background-by-negative-25-percent-of-its-width-so-that-it-gives-a-nice-border-animation_-We-use-the-translate-property-to-have-a-nice-transition-so-it_s-not-a-jerk-of-a-start-or-stop .75s linear infinite;
     animation-play-state: paused;
@@ -113,7 +110,7 @@
     padding: 1rem 1.5rem;
     font-size: 1.1rem;
     /* background: #000; */
-    background-color: black;
+    background-color: var(--background);
     border-radius: 3px;
     height: 100%;
 }
@@ -135,14 +132,14 @@
 .image-container .profile-image {
     max-width: 60%;
     border-radius: 50%;
-    border: 7px solid #00d4ff;
+    border: 7px solid var(--blue);
     transition: transform 0.3s, border-color 0.3s;
     margin-bottom: 20px;
 }
 
 .image-container .profile-image:hover {
     transform: scale(1.05);
-    border-color: yellow;
+    border-color: var(--yellow);
 }
 
 /* Responsive Design */

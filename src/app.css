@@ -1,11 +1,21 @@
+:root{
+  --background: black;
+  --primary-color: white;
+  --gradient: linear-gradient(90deg, yellow, #00d4ff);
+  --gradient2: linear-gradient(180deg, #333, #00d4ff);
+  --gradient2: linear-gradient(180deg, #00d4ff, yellow);
+  --blue: #00d4ff;
+  --yellow: yellow;
+}
+
 ::-webkit-scrollbar {
-  width: 5px;
+  width: 8px;
   /* height: 10px; */
 }
 ::-webkit-scrollbar-track{
-    background: black;
+    background: var(--background);
 }
 ::-webkit-scrollbar-thumb{
-    background: linear-gradient(#642bff, #ff22e6);
+    background: var(--gradient2);
     border-radius: 10px;
 }

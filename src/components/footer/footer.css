@@ -2,7 +2,7 @@
 footer{
     position: relative;
     background-color: #0E0E0E;
-    color: #fff;
+    color: var(--primary-color);
     text-align: center;
     padding: 10px;
     bottom: 0;
