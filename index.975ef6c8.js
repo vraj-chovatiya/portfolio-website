@@ -34602,7 +34602,7 @@ var _jsxDevRuntime = require("react/jsx-dev-runtime");
 var _react = require("@tsparticles/react");
 var _reactDefault = parcelHelpers.interopDefault(_react);
 var _react1 = require("react");
-var _slim = require("@tsparticles/slim"); // if you are going to use `loadSlim`, install the "@tsparticles/slim" package too.
+var _slim = require("@tsparticles/slim");
 var _s = $RefreshSig$();
 const ParticlesBackground = (props)=>{
     _s();
@@ -56609,7 +56609,8 @@ const Contact = ()=>{
                 fileName: "src/components/contact/Contact.js",
                 lineNumber: 84,
                 columnNumber: 13
-            }, undefined)
+            }, undefined),
+            "z"
         ]
     }, void 0, true);
 };
