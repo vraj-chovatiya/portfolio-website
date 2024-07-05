@@ -46,7 +46,16 @@ const projects = [
         image: "https://parceljs.org/assets/home-og.png",
         github: "https://github.com/vraj-chovatiya/parcel-react-app"
     },
+    {
+        id: 7,
+        title: "Real-Time Tracking App",
+        discription: "This is a simple Real-Time Tracking Application. Build using Socket.io, Node.js, and Express.",
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfWeqeGD1Mo3v3Dl77zhQBdS1IyaPof5iPPg&s",
+        github: "https://github.com/vraj-chovatiya/"
+    },
     
+    // <a href="https://freeimage.host/i/dKkLTGt"><img src="https://iili.io/dKkLTGt.th.png" alt="dKkLTGt.th.png" border="0"></a>
+
     // Add more projects as needed
 ];
 
