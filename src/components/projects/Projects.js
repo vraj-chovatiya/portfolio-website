@@ -54,13 +54,8 @@ const projects = [
         github: "https://github.com/vraj-chovatiya/"
     },
     
-    // <a href="https://freeimage.host/i/dKkLTGt"><img src="https://iili.io/dKkLTGt.th.png" alt="dKkLTGt.th.png" border="0"></a>
-
     // Add more projects as needed
 ];
-
-// ../../assets/img/portfolio.png
-// F:\code\Project\portfolio\src\assets\img\portfolio.png
 
 const Projects = () => {
 
