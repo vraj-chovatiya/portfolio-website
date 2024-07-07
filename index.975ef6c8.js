@@ -34400,14 +34400,19 @@ var _framerMotion = require("framer-motion");
 var _particlesBackground = require("./ParticlesBackground");
 var _particlesBackgroundDefault = parcelHelpers.interopDefault(_particlesBackground);
 var _homeCss = require("./home.css");
+var _s = $RefreshSig$();
 const Home = ()=>{
+    _s();
+    (0, _react.useEffect)(()=>{
+        window.scrollTo(0, 0);
+    }, []);
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jsxDevRuntime.Fragment), {
         children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
             className: "home",
             children: [
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _particlesBackgroundDefault.default), {}, void 0, false, {
                     fileName: "src/components/home/Home.js",
-                    lineNumber: 13,
+                    lineNumber: 18,
                     columnNumber: 17
                 }, undefined),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -34429,7 +34434,7 @@ const Home = ()=>{
                                 "Welcome to",
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
                                     fileName: "src/components/home/Home.js",
-                                    lineNumber: 20,
+                                    lineNumber: 25,
                                     columnNumber: 35
                                 }, undefined),
                                 " ",
@@ -34437,14 +34442,14 @@ const Home = ()=>{
                                     children: "Vraj Chovatiya's"
                                 }, void 0, false, {
                                     fileName: "src/components/home/Home.js",
-                                    lineNumber: 20,
+                                    lineNumber: 25,
                                     columnNumber: 42
                                 }, undefined),
                                 " Portfolio.."
                             ]
                         }, void 0, true, {
                             fileName: "src/components/home/Home.js",
-                            lineNumber: 15,
+                            lineNumber: 20,
                             columnNumber: 21
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _framerMotion.motion).p, {
@@ -34463,7 +34468,7 @@ const Home = ()=>{
                             children: "Dedicated ReactJS developer with extensive project-based expertise in building seamless, visually appealing web apps. Expert in creating attractive user interfaces, integrating backend services, and ensuring easy navigation."
                         }, void 0, false, {
                             fileName: "src/components/home/Home.js",
-                            lineNumber: 22,
+                            lineNumber: 27,
                             columnNumber: 21
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _framerMotion.motion).div, {
@@ -34486,23 +34491,23 @@ const Home = ()=>{
                                     children: "About Me"
                                 }, void 0, false, {
                                     fileName: "src/components/home/Home.js",
-                                    lineNumber: 34,
+                                    lineNumber: 39,
                                     columnNumber: 70
                                 }, undefined)
                             }, void 0, false, {
                                 fileName: "src/components/home/Home.js",
-                                lineNumber: 34,
+                                lineNumber: 39,
                                 columnNumber: 25
                             }, undefined)
                         }, void 0, false, {
                             fileName: "src/components/home/Home.js",
-                            lineNumber: 29,
+                            lineNumber: 34,
                             columnNumber: 21
                         }, undefined)
                     ]
                 }, void 0, true, {
                     fileName: "src/components/home/Home.js",
-                    lineNumber: 14,
+                    lineNumber: 19,
                     columnNumber: 17
                 }, undefined),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _framerMotion.motion).div, {
@@ -34525,22 +34530,23 @@ const Home = ()=>{
                         className: "profile-image"
                     }, void 0, false, {
                         fileName: "src/components/home/Home.js",
-                        lineNumber: 43,
+                        lineNumber: 48,
                         columnNumber: 21
                     }, undefined)
                 }, void 0, false, {
                     fileName: "src/components/home/Home.js",
-                    lineNumber: 37,
+                    lineNumber: 42,
                     columnNumber: 17
                 }, undefined)
             ]
         }, void 0, true, {
             fileName: "src/components/home/Home.js",
-            lineNumber: 12,
+            lineNumber: 17,
             columnNumber: 13
         }, undefined)
     }, void 0, false);
 };
+_s(Home, "OD7bBpZva5O2jO+Puf00hKivP7c=");
 _c = Home;
 exports.default = Home;
 var _c;
@@ -55435,6 +55441,7 @@ var _reactDefault = parcelHelpers.interopDefault(_react);
 var _aboutCss = require("./about.css");
 var _framerMotion = require("framer-motion");
 var _reactIntersectionObserver = require("react-intersection-observer");
+var _s = $RefreshSig$();
 const techStack = {
     languages: [
         {
@@ -55527,7 +55534,7 @@ const profileLinks = [
         alt: "LeetCode"
     },
     {
-        href: "https://www.codechef.com/users/vrajchovatiya1",
+        href: "https://www.codechef.com/users/vraj_chovatiya",
         src: "https://asset.brandfetch.io/idM2-b7Taf/id9CeVm2nY.png",
         alt: "CodeChef"
     },
@@ -55548,6 +55555,7 @@ const profileLinks = [
     }
 ];
 const About = ()=>{
+    _s();
     const fadeIn = {
         initial: {
             opacity: 0,
@@ -55561,6 +55569,9 @@ const About = ()=>{
             duration: 0.5
         }
     };
+    (0, _react.useEffect)(()=>{
+        window.scrollTo(0, 0);
+    }, []);
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
         className: "about-container",
         children: [
@@ -55572,20 +55583,20 @@ const About = ()=>{
                         children: "Here's About Me"
                     }, void 0, false, {
                         fileName: "src/components/about/About.js",
-                        lineNumber: 56,
+                        lineNumber: 60,
                         columnNumber: 17
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                         children: "Here's the information of my background, passion, techStack, etc.."
                     }, void 0, false, {
                         fileName: "src/components/about/About.js",
-                        lineNumber: 57,
+                        lineNumber: 61,
                         columnNumber: 17
                     }, undefined)
                 ]
             }, void 0, true, {
                 fileName: "src/components/about/About.js",
-                lineNumber: 55,
+                lineNumber: 59,
                 columnNumber: 13
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _framerMotion.motion).div, {
@@ -55598,35 +55609,35 @@ const About = ()=>{
                             children: "About Me"
                         }, void 0, false, {
                             fileName: "src/components/about/About.js",
-                            lineNumber: 61,
+                            lineNumber: 65,
                             columnNumber: 21
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
                             children: "Vraj Chovatiya"
                         }, void 0, false, {
                             fileName: "src/components/about/About.js",
-                            lineNumber: 62,
+                            lineNumber: 66,
                             columnNumber: 21
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                             children: "I have completed my Bachelor's in Computer Applications from Veer Narmad South Gujarat University and am currently pursuing further studies at Nirma University. I am deeply passionate about learning new technologies and leveraging them to solve real-world problems. Throughout my academic journey, I have developed strong expertise in various programming languages, including C, C++, HTML, CSS, and JavaScript. My focus on web development has allowed me to build a solid foundation and gain hands-on experience in creating dynamic and responsive web applications."
                         }, void 0, false, {
                             fileName: "src/components/about/About.js",
-                            lineNumber: 63,
+                            lineNumber: 67,
                             columnNumber: 21
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                             children: "I have honed my skills in ReactJS, developing a robust understanding of this powerful framework to build modern, efficient, and user-friendly interfaces. Additionally, I have experience working with MySQL databases and utilizing WordPress for web development projects."
                         }, void 0, false, {
                             fileName: "src/components/about/About.js",
-                            lineNumber: 66,
+                            lineNumber: 70,
                             columnNumber: 21
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                             children: "I am always eager to expand my knowledge and explore new technologies that can drive innovation and create impactful solutions. I look forward to connecting with like-minded professionals and exploring opportunities to collaborate on exciting projects."
                         }, void 0, false, {
                             fileName: "src/components/about/About.js",
-                            lineNumber: 69,
+                            lineNumber: 73,
                             columnNumber: 21
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
@@ -55636,23 +55647,23 @@ const About = ()=>{
                                 children: "Download CV"
                             }, void 0, false, {
                                 fileName: "src/components/about/About.js",
-                                lineNumber: 76,
+                                lineNumber: 80,
                                 columnNumber: 25
                             }, undefined)
                         }, void 0, false, {
                             fileName: "src/components/about/About.js",
-                            lineNumber: 72,
+                            lineNumber: 76,
                             columnNumber: 21
                         }, undefined)
                     ]
                 }, void 0, true, {
                     fileName: "src/components/about/About.js",
-                    lineNumber: 60,
+                    lineNumber: 64,
                     columnNumber: 17
                 }, undefined)
             }, void 0, false, {
                 fileName: "src/components/about/About.js",
-                lineNumber: 59,
+                lineNumber: 63,
                 columnNumber: 13
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _framerMotion.motion).div, {
@@ -55666,34 +55677,11 @@ const About = ()=>{
                                 children: "10+"
                             }, void 0, false, {
                                 fileName: "src/components/about/About.js",
-                                lineNumber: 82,
-                                columnNumber: 21
-                            }, undefined),
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                                children: "Project"
-                            }, void 0, false, {
-                                fileName: "src/components/about/About.js",
-                                lineNumber: 83,
-                                columnNumber: 21
-                            }, undefined)
-                        ]
-                    }, void 0, true, {
-                        fileName: "src/components/about/About.js",
-                        lineNumber: 81,
-                        columnNumber: 17
-                    }, undefined),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                        className: "work-item",
-                        children: [
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
-                                children: "5+"
-                            }, void 0, false, {
-                                fileName: "src/components/about/About.js",
                                 lineNumber: 86,
                                 columnNumber: 21
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                                children: "React Project"
+                                children: "Project"
                             }, void 0, false, {
                                 fileName: "src/components/about/About.js",
                                 lineNumber: 87,
@@ -55709,14 +55697,14 @@ const About = ()=>{
                         className: "work-item",
                         children: [
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
-                                children: "2+"
+                                children: "5+"
                             }, void 0, false, {
                                 fileName: "src/components/about/About.js",
                                 lineNumber: 90,
                                 columnNumber: 21
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                                children: "Month of Company experience"
+                                children: "React Project"
                             }, void 0, false, {
                                 fileName: "src/components/about/About.js",
                                 lineNumber: 91,
@@ -55732,14 +55720,14 @@ const About = ()=>{
                         className: "work-item",
                         children: [
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
-                                children: "119+"
+                                children: "2+"
                             }, void 0, false, {
                                 fileName: "src/components/about/About.js",
                                 lineNumber: 94,
                                 columnNumber: 21
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                                children: "DSA Questions Solved"
+                                children: "Month of Company experience"
                             }, void 0, false, {
                                 fileName: "src/components/about/About.js",
                                 lineNumber: 95,
@@ -55750,11 +55738,34 @@ const About = ()=>{
                         fileName: "src/components/about/About.js",
                         lineNumber: 93,
                         columnNumber: 17
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "work-item",
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
+                                children: "119+"
+                            }, void 0, false, {
+                                fileName: "src/components/about/About.js",
+                                lineNumber: 98,
+                                columnNumber: 21
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                children: "DSA Questions Solved"
+                            }, void 0, false, {
+                                fileName: "src/components/about/About.js",
+                                lineNumber: 99,
+                                columnNumber: 21
+                            }, undefined)
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/components/about/About.js",
+                        lineNumber: 97,
+                        columnNumber: 17
                     }, undefined)
                 ]
             }, void 0, true, {
                 fileName: "src/components/about/About.js",
-                lineNumber: 80,
+                lineNumber: 84,
                 columnNumber: 13
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -55764,7 +55775,7 @@ const About = ()=>{
                         children: "Tech Stack"
                     }, void 0, false, {
                         fileName: "src/components/about/About.js",
-                        lineNumber: 100,
+                        lineNumber: 104,
                         columnNumber: 17
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -55773,7 +55784,7 @@ const About = ()=>{
                                 children: "1. Languages"
                             }, void 0, false, {
                                 fileName: "src/components/about/About.js",
-                                lineNumber: 102,
+                                lineNumber: 106,
                                 columnNumber: 21
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
@@ -55793,31 +55804,31 @@ const About = ()=>{
                                                 alt: item.name
                                             }, void 0, false, {
                                                 fileName: "src/components/about/About.js",
-                                                lineNumber: 111,
+                                                lineNumber: 115,
                                                 columnNumber: 33
                                             }, undefined),
                                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                                                 children: item.name
                                             }, void 0, false, {
                                                 fileName: "src/components/about/About.js",
-                                                lineNumber: 112,
+                                                lineNumber: 116,
                                                 columnNumber: 33
                                             }, undefined)
                                         ]
                                     }, index, true, {
                                         fileName: "src/components/about/About.js",
-                                        lineNumber: 105,
+                                        lineNumber: 109,
                                         columnNumber: 29
                                     }, undefined))
                             }, void 0, false, {
                                 fileName: "src/components/about/About.js",
-                                lineNumber: 103,
+                                lineNumber: 107,
                                 columnNumber: 21
                             }, undefined)
                         ]
                     }, void 0, true, {
                         fileName: "src/components/about/About.js",
-                        lineNumber: 101,
+                        lineNumber: 105,
                         columnNumber: 17
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -55826,7 +55837,7 @@ const About = ()=>{
                                 children: "2. Framework and Libraries"
                             }, void 0, false, {
                                 fileName: "src/components/about/About.js",
-                                lineNumber: 118,
+                                lineNumber: 122,
                                 columnNumber: 21
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
@@ -55846,31 +55857,31 @@ const About = ()=>{
                                                 alt: item.name
                                             }, void 0, false, {
                                                 fileName: "src/components/about/About.js",
-                                                lineNumber: 127,
+                                                lineNumber: 131,
                                                 columnNumber: 33
                                             }, undefined),
                                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                                                 children: item.name
                                             }, void 0, false, {
                                                 fileName: "src/components/about/About.js",
-                                                lineNumber: 128,
+                                                lineNumber: 132,
                                                 columnNumber: 33
                                             }, undefined)
                                         ]
                                     }, index, true, {
                                         fileName: "src/components/about/About.js",
-                                        lineNumber: 121,
+                                        lineNumber: 125,
                                         columnNumber: 29
                                     }, undefined))
                             }, void 0, false, {
                                 fileName: "src/components/about/About.js",
-                                lineNumber: 119,
+                                lineNumber: 123,
                                 columnNumber: 21
                             }, undefined)
                         ]
                     }, void 0, true, {
                         fileName: "src/components/about/About.js",
-                        lineNumber: 117,
+                        lineNumber: 121,
                         columnNumber: 17
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -55879,7 +55890,7 @@ const About = ()=>{
                                 children: "3. Other Tools & Technologies"
                             }, void 0, false, {
                                 fileName: "src/components/about/About.js",
-                                lineNumber: 134,
+                                lineNumber: 138,
                                 columnNumber: 21
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
@@ -55899,37 +55910,37 @@ const About = ()=>{
                                                 alt: item.name
                                             }, void 0, false, {
                                                 fileName: "src/components/about/About.js",
-                                                lineNumber: 142,
+                                                lineNumber: 146,
                                                 columnNumber: 33
                                             }, undefined),
                                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                                                 children: item.name
                                             }, void 0, false, {
                                                 fileName: "src/components/about/About.js",
-                                                lineNumber: 143,
+                                                lineNumber: 147,
                                                 columnNumber: 33
                                             }, undefined)
                                         ]
                                     }, void 0, true, {
                                         fileName: "src/components/about/About.js",
-                                        lineNumber: 137,
+                                        lineNumber: 141,
                                         columnNumber: 29
                                     }, undefined))
                             }, void 0, false, {
                                 fileName: "src/components/about/About.js",
-                                lineNumber: 135,
+                                lineNumber: 139,
                                 columnNumber: 21
                             }, undefined)
                         ]
                     }, void 0, true, {
                         fileName: "src/components/about/About.js",
-                        lineNumber: 133,
+                        lineNumber: 137,
                         columnNumber: 17
                     }, undefined)
                 ]
             }, void 0, true, {
                 fileName: "src/components/about/About.js",
-                lineNumber: 99,
+                lineNumber: 103,
                 columnNumber: 13
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _framerMotion.motion).div, {
@@ -55940,8 +55951,8 @@ const About = ()=>{
                         children: "Profile Links"
                     }, void 0, false, {
                         fileName: "src/components/about/About.js",
-                        lineNumber: 150,
-                        columnNumber: 16
+                        lineNumber: 154,
+                        columnNumber: 17
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                         className: "card-container",
@@ -55957,45 +55968,46 @@ const About = ()=>{
                                             alt: item.alt
                                         }, void 0, false, {
                                             fileName: "src/components/about/About.js",
-                                            lineNumber: 155,
-                                            columnNumber: 37
+                                            lineNumber: 159,
+                                            columnNumber: 33
                                         }, undefined),
                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                                             children: item.alt
                                         }, void 0, false, {
                                             fileName: "src/components/about/About.js",
-                                            lineNumber: 156,
-                                            columnNumber: 37
+                                            lineNumber: 160,
+                                            columnNumber: 33
                                         }, undefined)
                                     ]
                                 }, void 0, true, {
                                     fileName: "src/components/about/About.js",
-                                    lineNumber: 154,
-                                    columnNumber: 33
+                                    lineNumber: 158,
+                                    columnNumber: 29
                                 }, undefined)
                             }, index, false, {
                                 fileName: "src/components/about/About.js",
-                                lineNumber: 153,
-                                columnNumber: 29
+                                lineNumber: 157,
+                                columnNumber: 25
                             }, undefined))
                     }, void 0, false, {
                         fileName: "src/components/about/About.js",
-                        lineNumber: 151,
-                        columnNumber: 16
+                        lineNumber: 155,
+                        columnNumber: 17
                     }, undefined)
                 ]
             }, void 0, true, {
                 fileName: "src/components/about/About.js",
-                lineNumber: 149,
+                lineNumber: 153,
                 columnNumber: 13
             }, undefined)
         ]
     }, void 0, true, {
         fileName: "src/components/about/About.js",
-        lineNumber: 54,
+        lineNumber: 58,
         columnNumber: 9
     }, undefined);
 };
+_s(About, "OD7bBpZva5O2jO+Puf00hKivP7c=");
 _c = About;
 exports.default = About;
 var _c;
@@ -56366,6 +56378,9 @@ const Contact = ()=>{
     // const handleClosePopup = () => {
     //     setMessageSent(false);
     // };
+    (0, _react.useEffect)(()=>{
+        window.scrollTo(0, 0);
+    }, []);
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jsxDevRuntime.Fragment), {
         children: [
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _framerMotion.motion).div, {
@@ -56376,25 +56391,25 @@ const Contact = ()=>{
                         children: "Let's Connect"
                     }, void 0, false, {
                         fileName: "src/components/contact/Contact.js",
-                        lineNumber: 52,
+                        lineNumber: 56,
                         columnNumber: 17
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                         children: "Contact me for building any project or portfolio like this."
                     }, void 0, false, {
                         fileName: "src/components/contact/Contact.js",
-                        lineNumber: 53,
+                        lineNumber: 57,
                         columnNumber: 17
                     }, undefined)
                 ]
             }, void 0, true, {
                 fileName: "src/components/contact/Contact.js",
-                lineNumber: 51,
+                lineNumber: 55,
                 columnNumber: 13
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("hr", {}, void 0, false, {
                 fileName: "src/components/contact/Contact.js",
-                lineNumber: 55,
+                lineNumber: 59,
                 columnNumber: 13
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _framerMotion.motion).div, {
@@ -56409,7 +56424,7 @@ const Contact = ()=>{
                                 children: "Contact Me"
                             }, void 0, false, {
                                 fileName: "src/components/contact/Contact.js",
-                                lineNumber: 58,
+                                lineNumber: 62,
                                 columnNumber: 21
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("form", {
@@ -56425,40 +56440,13 @@ const Contact = ()=>{
                                                 children: "Name"
                                             }, void 0, false, {
                                                 fileName: "src/components/contact/Contact.js",
-                                                lineNumber: 61,
+                                                lineNumber: 65,
                                                 columnNumber: 29
                                             }, undefined),
                                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
                                                 type: "text",
                                                 id: "name",
                                                 name: "name",
-                                                required: true
-                                            }, void 0, false, {
-                                                fileName: "src/components/contact/Contact.js",
-                                                lineNumber: 62,
-                                                columnNumber: 29
-                                            }, undefined)
-                                        ]
-                                    }, void 0, true, {
-                                        fileName: "src/components/contact/Contact.js",
-                                        lineNumber: 60,
-                                        columnNumber: 25
-                                    }, undefined),
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                        className: "form-group",
-                                        children: [
-                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("label", {
-                                                htmlFor: "email",
-                                                children: "Email"
-                                            }, void 0, false, {
-                                                fileName: "src/components/contact/Contact.js",
-                                                lineNumber: 65,
-                                                columnNumber: 29
-                                            }, undefined),
-                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
-                                                type: "email",
-                                                id: "email",
-                                                name: "email",
                                                 required: true
                                             }, void 0, false, {
                                                 fileName: "src/components/contact/Contact.js",
@@ -56475,17 +56463,17 @@ const Contact = ()=>{
                                         className: "form-group",
                                         children: [
                                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("label", {
-                                                htmlFor: "message",
-                                                children: "Message"
+                                                htmlFor: "email",
+                                                children: "Email"
                                             }, void 0, false, {
                                                 fileName: "src/components/contact/Contact.js",
                                                 lineNumber: 69,
                                                 columnNumber: 29
                                             }, undefined),
-                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("textarea", {
-                                                id: "message",
-                                                name: "message",
-                                                rows: "5",
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
+                                                type: "email",
+                                                id: "email",
+                                                name: "email",
                                                 required: true
                                             }, void 0, false, {
                                                 fileName: "src/components/contact/Contact.js",
@@ -56498,6 +56486,33 @@ const Contact = ()=>{
                                         lineNumber: 68,
                                         columnNumber: 25
                                     }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                        className: "form-group",
+                                        children: [
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("label", {
+                                                htmlFor: "message",
+                                                children: "Message"
+                                            }, void 0, false, {
+                                                fileName: "src/components/contact/Contact.js",
+                                                lineNumber: 73,
+                                                columnNumber: 29
+                                            }, undefined),
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("textarea", {
+                                                id: "message",
+                                                name: "message",
+                                                rows: "5",
+                                                required: true
+                                            }, void 0, false, {
+                                                fileName: "src/components/contact/Contact.js",
+                                                lineNumber: 74,
+                                                columnNumber: 29
+                                            }, undefined)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "src/components/contact/Contact.js",
+                                        lineNumber: 72,
+                                        columnNumber: 25
+                                    }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
                                         type: "submit",
                                         value: "Send",
@@ -56506,24 +56521,24 @@ const Contact = ()=>{
                                             children: "Send Message"
                                         }, void 0, false, {
                                             fileName: "src/components/contact/Contact.js",
-                                            lineNumber: 72,
+                                            lineNumber: 76,
                                             columnNumber: 87
                                         }, undefined)
                                     }, void 0, false, {
                                         fileName: "src/components/contact/Contact.js",
-                                        lineNumber: 72,
+                                        lineNumber: 76,
                                         columnNumber: 25
                                     }, undefined)
                                 ]
                             }, void 0, true, {
                                 fileName: "src/components/contact/Contact.js",
-                                lineNumber: 59,
+                                lineNumber: 63,
                                 columnNumber: 21
                             }, undefined)
                         ]
                     }, void 0, true, {
                         fileName: "src/components/contact/Contact.js",
-                        lineNumber: 57,
+                        lineNumber: 61,
                         columnNumber: 17
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _framerMotion.motion).div, {
@@ -56534,7 +56549,7 @@ const Contact = ()=>{
                                 children: "My Contact Information"
                             }, void 0, false, {
                                 fileName: "src/components/contact/Contact.js",
-                                lineNumber: 76,
+                                lineNumber: 80,
                                 columnNumber: 21
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
@@ -56545,14 +56560,14 @@ const Contact = ()=>{
                                                 children: "Phone:"
                                             }, void 0, false, {
                                                 fileName: "src/components/contact/Contact.js",
-                                                lineNumber: 78,
+                                                lineNumber: 82,
                                                 columnNumber: 29
                                             }, undefined),
                                             " +91 8866448029"
                                         ]
                                     }, void 0, true, {
                                         fileName: "src/components/contact/Contact.js",
-                                        lineNumber: 78,
+                                        lineNumber: 82,
                                         columnNumber: 25
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
@@ -56561,14 +56576,14 @@ const Contact = ()=>{
                                                 children: "Email:"
                                             }, void 0, false, {
                                                 fileName: "src/components/contact/Contact.js",
-                                                lineNumber: 79,
+                                                lineNumber: 83,
                                                 columnNumber: 29
                                             }, undefined),
                                             " vrajchovatiya11@gmail.com"
                                         ]
                                     }, void 0, true, {
                                         fileName: "src/components/contact/Contact.js",
-                                        lineNumber: 79,
+                                        lineNumber: 83,
                                         columnNumber: 25
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
@@ -56577,44 +56592,43 @@ const Contact = ()=>{
                                                 children: "Address:"
                                             }, void 0, false, {
                                                 fileName: "src/components/contact/Contact.js",
-                                                lineNumber: 80,
+                                                lineNumber: 84,
                                                 columnNumber: 29
                                             }, undefined),
                                             " Surat, Gujarat."
                                         ]
                                     }, void 0, true, {
                                         fileName: "src/components/contact/Contact.js",
-                                        lineNumber: 80,
+                                        lineNumber: 84,
                                         columnNumber: 25
                                     }, undefined)
                                 ]
                             }, void 0, true, {
                                 fileName: "src/components/contact/Contact.js",
-                                lineNumber: 77,
+                                lineNumber: 81,
                                 columnNumber: 21
                             }, undefined)
                         ]
                     }, void 0, true, {
                         fileName: "src/components/contact/Contact.js",
-                        lineNumber: 75,
+                        lineNumber: 79,
                         columnNumber: 17
                     }, undefined)
                 ]
             }, void 0, true, {
                 fileName: "src/components/contact/Contact.js",
-                lineNumber: 56,
+                lineNumber: 60,
                 columnNumber: 13
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactToastify.ToastContainer), {}, void 0, false, {
                 fileName: "src/components/contact/Contact.js",
-                lineNumber: 84,
+                lineNumber: 88,
                 columnNumber: 13
-            }, undefined),
-            "z"
+            }, undefined)
         ]
     }, void 0, true);
 };
-_s(Contact, "dQhLC9DEDZP9Q6oVJIWRdCVKDdw=");
+_s(Contact, "aLNReAk7EYWZilPwC86cx2bJ/tc=");
 _c = Contact;
 exports.default = Contact;
 var _c;
@@ -57604,7 +57618,9 @@ var _react = require("react");
 var _reactDefault = parcelHelpers.interopDefault(_react);
 var _educationCss = require("./education.css");
 var _framerMotion = require("framer-motion");
+var _s = $RefreshSig$();
 const Education = ()=>{
+    _s();
     const fadeIn = {
         initial: {
             opacity: 0,
@@ -57618,6 +57634,9 @@ const Education = ()=>{
             duration: 0.5
         }
     };
+    (0, _react.useEffect)(()=>{
+        window.scrollTo(0, 0);
+    }, []);
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jsxDevRuntime.Fragment), {
         children: [
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _framerMotion.motion).div, {
@@ -57628,20 +57647,20 @@ const Education = ()=>{
                         children: "Here's My Education"
                     }, void 0, false, {
                         fileName: "src/components/education/Education.js",
-                        lineNumber: 16,
+                        lineNumber: 20,
                         columnNumber: 17
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                         children: "Here's the information about my educational background..."
                     }, void 0, false, {
                         fileName: "src/components/education/Education.js",
-                        lineNumber: 17,
+                        lineNumber: 21,
                         columnNumber: 17
                     }, undefined)
                 ]
             }, void 0, true, {
                 fileName: "src/components/education/Education.js",
-                lineNumber: 15,
+                lineNumber: 19,
                 columnNumber: 13
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _framerMotion.motion).div, {
@@ -57659,21 +57678,21 @@ const Education = ()=>{
                                         children: "Year 2018"
                                     }, void 0, false, {
                                         fileName: "src/components/education/Education.js",
-                                        lineNumber: 23,
+                                        lineNumber: 27,
                                         columnNumber: 29
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
                                         children: "SSC"
                                     }, void 0, false, {
                                         fileName: "src/components/education/Education.js",
-                                        lineNumber: 24,
+                                        lineNumber: 28,
                                         columnNumber: 29
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                                         children: "Gurukul Vidhyapith Kumar Vidhyalaya, Katargam, Surat"
                                     }, void 0, false, {
                                         fileName: "src/components/education/Education.js",
-                                        lineNumber: 25,
+                                        lineNumber: 29,
                                         columnNumber: 29
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -57681,18 +57700,18 @@ const Education = ()=>{
                                         children: "Percentage: 59.9%"
                                     }, void 0, false, {
                                         fileName: "src/components/education/Education.js",
-                                        lineNumber: 26,
+                                        lineNumber: 30,
                                         columnNumber: 29
                                     }, undefined)
                                 ]
                             }, void 0, true, {
                                 fileName: "src/components/education/Education.js",
-                                lineNumber: 22,
+                                lineNumber: 26,
                                 columnNumber: 25
                             }, undefined)
                         }, void 0, false, {
                             fileName: "src/components/education/Education.js",
-                            lineNumber: 21,
+                            lineNumber: 25,
                             columnNumber: 21
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -57704,21 +57723,21 @@ const Education = ()=>{
                                         children: "Year 2020"
                                     }, void 0, false, {
                                         fileName: "src/components/education/Education.js",
-                                        lineNumber: 31,
+                                        lineNumber: 35,
                                         columnNumber: 29
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
                                         children: "HSC"
                                     }, void 0, false, {
                                         fileName: "src/components/education/Education.js",
-                                        lineNumber: 32,
+                                        lineNumber: 36,
                                         columnNumber: 29
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                                         children: "P.P. Savani Vidhyabhawan, Hirabaug, Surat."
                                     }, void 0, false, {
                                         fileName: "src/components/education/Education.js",
-                                        lineNumber: 33,
+                                        lineNumber: 37,
                                         columnNumber: 29
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -57726,18 +57745,18 @@ const Education = ()=>{
                                         children: "Percentage: 73.73%"
                                     }, void 0, false, {
                                         fileName: "src/components/education/Education.js",
-                                        lineNumber: 34,
+                                        lineNumber: 38,
                                         columnNumber: 29
                                     }, undefined)
                                 ]
                             }, void 0, true, {
                                 fileName: "src/components/education/Education.js",
-                                lineNumber: 30,
+                                lineNumber: 34,
                                 columnNumber: 25
                             }, undefined)
                         }, void 0, false, {
                             fileName: "src/components/education/Education.js",
-                            lineNumber: 29,
+                            lineNumber: 33,
                             columnNumber: 21
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -57749,21 +57768,21 @@ const Education = ()=>{
                                         children: "Year 2020-2023"
                                     }, void 0, false, {
                                         fileName: "src/components/education/Education.js",
-                                        lineNumber: 39,
+                                        lineNumber: 43,
                                         columnNumber: 29
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
                                         children: "Bachelor of Computer Application (BCA)"
                                     }, void 0, false, {
                                         fileName: "src/components/education/Education.js",
-                                        lineNumber: 40,
+                                        lineNumber: 44,
                                         columnNumber: 29
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                                         children: "Veer Narmad South Gujarat University, Surat"
                                     }, void 0, false, {
                                         fileName: "src/components/education/Education.js",
-                                        lineNumber: 41,
+                                        lineNumber: 45,
                                         columnNumber: 29
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -57771,18 +57790,18 @@ const Education = ()=>{
                                         children: "CGPA: 7.20"
                                     }, void 0, false, {
                                         fileName: "src/components/education/Education.js",
-                                        lineNumber: 42,
+                                        lineNumber: 46,
                                         columnNumber: 29
                                     }, undefined)
                                 ]
                             }, void 0, true, {
                                 fileName: "src/components/education/Education.js",
-                                lineNumber: 38,
+                                lineNumber: 42,
                                 columnNumber: 25
                             }, undefined)
                         }, void 0, false, {
                             fileName: "src/components/education/Education.js",
-                            lineNumber: 37,
+                            lineNumber: 41,
                             columnNumber: 21
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -57794,21 +57813,21 @@ const Education = ()=>{
                                         children: "Year2023- 2025"
                                     }, void 0, false, {
                                         fileName: "src/components/education/Education.js",
-                                        lineNumber: 47,
+                                        lineNumber: 51,
                                         columnNumber: 29
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
                                         children: "Master of Computer Application (MCA)"
                                     }, void 0, false, {
                                         fileName: "src/components/education/Education.js",
-                                        lineNumber: 48,
+                                        lineNumber: 52,
                                         columnNumber: 29
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                                         children: "Institute of Technology Nirma University, Ahmedabad."
                                     }, void 0, false, {
                                         fileName: "src/components/education/Education.js",
-                                        lineNumber: 49,
+                                        lineNumber: 53,
                                         columnNumber: 29
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -57816,34 +57835,35 @@ const Education = ()=>{
                                         children: "CGPA: 7.75"
                                     }, void 0, false, {
                                         fileName: "src/components/education/Education.js",
-                                        lineNumber: 50,
+                                        lineNumber: 54,
                                         columnNumber: 29
                                     }, undefined)
                                 ]
                             }, void 0, true, {
                                 fileName: "src/components/education/Education.js",
-                                lineNumber: 46,
+                                lineNumber: 50,
                                 columnNumber: 25
                             }, undefined)
                         }, void 0, false, {
                             fileName: "src/components/education/Education.js",
-                            lineNumber: 45,
+                            lineNumber: 49,
                             columnNumber: 21
                         }, undefined)
                     ]
                 }, void 0, true, {
                     fileName: "src/components/education/Education.js",
-                    lineNumber: 20,
+                    lineNumber: 24,
                     columnNumber: 17
                 }, undefined)
             }, void 0, false, {
                 fileName: "src/components/education/Education.js",
-                lineNumber: 19,
+                lineNumber: 23,
                 columnNumber: 13
             }, undefined)
         ]
     }, void 0, true);
 };
+_s(Education, "OD7bBpZva5O2jO+Puf00hKivP7c=");
 _c = Education;
 exports.default = Education;
 var _c;
@@ -57868,6 +57888,7 @@ var _react = require("react");
 var _reactDefault = parcelHelpers.interopDefault(_react);
 var _experienceCss = require("./experience.css");
 var _framerMotion = require("framer-motion");
+var _s = $RefreshSig$();
 const experiences = [
     {
         company: "Varni Infotech",
@@ -57889,6 +57910,7 @@ const experiences = [
     }
 ];
 const Experience = ()=>{
+    _s();
     const fadeIn = {
         initial: {
             opacity: 0,
@@ -57902,6 +57924,9 @@ const Experience = ()=>{
             duration: 0.5
         }
     };
+    (0, _react.useEffect)(()=>{
+        window.scrollTo(0, 0);
+    }, []);
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jsxDevRuntime.Fragment), {
         children: [
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _framerMotion.motion).div, {
@@ -57912,20 +57937,20 @@ const Experience = ()=>{
                         children: "Here's My Experience"
                     }, void 0, false, {
                         fileName: "src/components/experience/Experience.js",
-                        lineNumber: 37,
+                        lineNumber: 41,
                         columnNumber: 17
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                         children: "Here's the experience of my web development journey."
                     }, void 0, false, {
                         fileName: "src/components/experience/Experience.js",
-                        lineNumber: 38,
+                        lineNumber: 42,
                         columnNumber: 17
                     }, undefined)
                 ]
             }, void 0, true, {
                 fileName: "src/components/experience/Experience.js",
-                lineNumber: 36,
+                lineNumber: 40,
                 columnNumber: 13
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _framerMotion.motion).div, {
@@ -57938,7 +57963,7 @@ const Experience = ()=>{
                                 children: exp.company
                             }, void 0, false, {
                                 fileName: "src/components/experience/Experience.js",
-                                lineNumber: 43,
+                                lineNumber: 47,
                                 columnNumber: 25
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -57947,7 +57972,7 @@ const Experience = ()=>{
                                         children: "Role:"
                                     }, void 0, false, {
                                         fileName: "src/components/experience/Experience.js",
-                                        lineNumber: 44,
+                                        lineNumber: 48,
                                         columnNumber: 28
                                     }, undefined),
                                     " ",
@@ -57955,7 +57980,7 @@ const Experience = ()=>{
                                 ]
                             }, void 0, true, {
                                 fileName: "src/components/experience/Experience.js",
-                                lineNumber: 44,
+                                lineNumber: 48,
                                 columnNumber: 25
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -57964,7 +57989,7 @@ const Experience = ()=>{
                                         children: "TimeLine:"
                                     }, void 0, false, {
                                         fileName: "src/components/experience/Experience.js",
-                                        lineNumber: 45,
+                                        lineNumber: 49,
                                         columnNumber: 28
                                     }, undefined),
                                     " ",
@@ -57972,7 +57997,7 @@ const Experience = ()=>{
                                 ]
                             }, void 0, true, {
                                 fileName: "src/components/experience/Experience.js",
-                                lineNumber: 45,
+                                lineNumber: 49,
                                 columnNumber: 25
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -57981,7 +58006,7 @@ const Experience = ()=>{
                                         children: "Location:"
                                     }, void 0, false, {
                                         fileName: "src/components/experience/Experience.js",
-                                        lineNumber: 46,
+                                        lineNumber: 50,
                                         columnNumber: 28
                                     }, undefined),
                                     " ",
@@ -57989,23 +58014,24 @@ const Experience = ()=>{
                                 ]
                             }, void 0, true, {
                                 fileName: "src/components/experience/Experience.js",
-                                lineNumber: 46,
+                                lineNumber: 50,
                                 columnNumber: 25
                             }, undefined)
                         ]
                     }, index, true, {
                         fileName: "src/components/experience/Experience.js",
-                        lineNumber: 42,
+                        lineNumber: 46,
                         columnNumber: 21
                     }, undefined))
             }, void 0, false, {
                 fileName: "src/components/experience/Experience.js",
-                lineNumber: 40,
+                lineNumber: 44,
                 columnNumber: 13
             }, undefined)
         ]
     }, void 0, true);
 };
+_s(Experience, "OD7bBpZva5O2jO+Puf00hKivP7c=");
 _c = Experience;
 exports.default = Experience;
 var _c;
@@ -58032,6 +58058,7 @@ var _projectsCss = require("./projects.css");
 var _framerMotion = require("framer-motion");
 var _flipkartPng = require("../../assets/img/flipkart.png");
 var _flipkartPngDefault = parcelHelpers.interopDefault(_flipkartPng);
+var _s = $RefreshSig$();
 const projects = [
     {
         id: 1,
@@ -58084,6 +58111,7 @@ const projects = [
     }
 ];
 const Projects = ()=>{
+    _s();
     const fadeIn = {
         initial: {
             opacity: 0,
@@ -58097,6 +58125,9 @@ const Projects = ()=>{
             duration: 0.5
         }
     };
+    (0, _react.useEffect)(()=>{
+        window.scrollTo(0, 0);
+    }, []);
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jsxDevRuntime.Fragment), {
         children: [
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _framerMotion.motion).div, {
@@ -58107,20 +58138,20 @@ const Projects = ()=>{
                         children: "Here's My Project"
                     }, void 0, false, {
                         fileName: "src/components/projects/Projects.js",
-                        lineNumber: 71,
+                        lineNumber: 75,
                         columnNumber: 17
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                         children: "Here's the project that I have created In this journey.."
                     }, void 0, false, {
                         fileName: "src/components/projects/Projects.js",
-                        lineNumber: 72,
+                        lineNumber: 76,
                         columnNumber: 17
                     }, undefined)
                 ]
             }, void 0, true, {
                 fileName: "src/components/projects/Projects.js",
-                lineNumber: 70,
+                lineNumber: 74,
                 columnNumber: 13
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _framerMotion.motion).div, {
@@ -58135,7 +58166,7 @@ const Projects = ()=>{
                                 className: "project-image"
                             }, void 0, false, {
                                 fileName: "src/components/projects/Projects.js",
-                                lineNumber: 77,
+                                lineNumber: 81,
                                 columnNumber: 25
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -58145,14 +58176,14 @@ const Projects = ()=>{
                                         children: project.title
                                     }, void 0, false, {
                                         fileName: "src/components/projects/Projects.js",
-                                        lineNumber: 79,
+                                        lineNumber: 83,
                                         columnNumber: 29
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                                         children: project.discription
                                     }, void 0, false, {
                                         fileName: "src/components/projects/Projects.js",
-                                        lineNumber: 80,
+                                        lineNumber: 84,
                                         columnNumber: 29
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
@@ -58163,29 +58194,30 @@ const Projects = ()=>{
                                         children: "View on GitHub"
                                     }, void 0, false, {
                                         fileName: "src/components/projects/Projects.js",
-                                        lineNumber: 81,
+                                        lineNumber: 85,
                                         columnNumber: 29
                                     }, undefined)
                                 ]
                             }, void 0, true, {
                                 fileName: "src/components/projects/Projects.js",
-                                lineNumber: 78,
+                                lineNumber: 82,
                                 columnNumber: 25
                             }, undefined)
                         ]
                     }, project.id, true, {
                         fileName: "src/components/projects/Projects.js",
-                        lineNumber: 76,
+                        lineNumber: 80,
                         columnNumber: 21
                     }, undefined))
             }, void 0, false, {
                 fileName: "src/components/projects/Projects.js",
-                lineNumber: 74,
+                lineNumber: 78,
                 columnNumber: 13
             }, undefined)
         ]
     }, void 0, true);
 };
+_s(Projects, "OD7bBpZva5O2jO+Puf00hKivP7c=");
 _c = Projects;
 exports.default = Projects;
 var _c;
