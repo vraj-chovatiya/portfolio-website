@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import './education.css';
 import { color, motion, useAnimation } from 'framer-motion';
 
@@ -9,6 +9,10 @@ const Education = () => {
         animate: { opacity: 1, y: 0 },
         transition: { duration: 0.5 },
     };
+
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
 
     return (
         <>

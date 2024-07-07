@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import './projects.css';
 import { color, motion, useAnimation } from 'framer-motion';
 import image from "../../assets/img/flipkart.png";
@@ -38,7 +38,7 @@ const projects = [
         discription: "This is a simple stopwatch application built using HTML, CSS, and JavaScript.",
         image: "https://i.imgur.com/Lmortak.png",
         github: "https://github.com/vraj-chovatiya/PRODIGY_WD_02"
-    }, 
+    },
     {
         id: 6,
         title: "React Bundler with Parcel",
@@ -53,7 +53,7 @@ const projects = [
         image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfWeqeGD1Mo3v3Dl77zhQBdS1IyaPof5iPPg&s",
         github: "https://github.com/vraj-chovatiya/"
     },
-    
+
     // Add more projects as needed
 ];
 
@@ -64,6 +64,10 @@ const Projects = () => {
         animate: { opacity: 1, y: 0 },
         transition: { duration: 0.5 },
     };
+
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
 
     return (
         <>

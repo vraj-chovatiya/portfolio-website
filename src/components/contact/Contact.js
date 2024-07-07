@@ -1,4 +1,4 @@
-import React, {useRef, useState} from 'react';
+import React, { useRef, useState, useEffect } from 'react';
 import './contact.css';
 import { color, motion, useAnimation } from 'framer-motion';
 import emailjs from '@emailjs/browser';
@@ -46,6 +46,10 @@ const Contact = () => {
     //     setMessageSent(false);
     // };
 
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
+
     return (
         <>
             <motion.div className='heading-contact' {...fadeIn}>
@@ -81,7 +85,7 @@ const Contact = () => {
                     </ul>
                 </motion.div>
             </motion.div>
-            <ToastContainer />z
+            <ToastContainer />
 
             {/* // when message sent successfully toastify message will be shown */}
             {/* {messageSent && toast.success('Message Sent!')} */}

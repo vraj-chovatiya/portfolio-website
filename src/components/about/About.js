@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import './about.css';
 import { color, motion, useAnimation } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
@@ -32,10 +32,10 @@ const techStack = {
 };
 
 
-const profileLinks  = [
+const profileLinks = [
     { href: "https://codeforces.com/profile/vraj_chovatiya", src: "https://asset.brandfetch.io/idMR4CMjcL/idPWmM8aOc.png", alt: "CodeForces" },
     { href: "https://leetcode.com/u/vraj_chovatiya/", src: "https://asset.brandfetch.io/id8BaDflDb/idMTJ6fnty.png", alt: "LeetCode" },
-    { href: "https://www.codechef.com/users/vrajchovatiya1", src: "https://asset.brandfetch.io/idM2-b7Taf/id9CeVm2nY.png", alt: "CodeChef" },
+    { href: "https://www.codechef.com/users/vraj_chovatiya", src: "https://asset.brandfetch.io/idM2-b7Taf/id9CeVm2nY.png", alt: "CodeChef" },
     { href: "https://www.hackerrank.com/profile/vrajchovatiya414", src: "https://asset.brandfetch.io/idTrJXGwd0/idAJPV0fZV.png", alt: "HackerRank" },
     { href: "https://www.naukri.com/code360/profile/vb_chovatiya", src: "https://asset.brandfetch.io/ideRRB4-kx/idUvsBj1k5.png", alt: "CodingNinjas" },
     { href: "https://www.geeksforgeeks.org/user/vrajchovatiya11/", src: "https://asset.brandfetch.io/idw2s-0Tuo/idushz6qWf.png", alt: "GeeksForGeeks" }
@@ -49,6 +49,10 @@ const About = () => {
         animate: { opacity: 1, y: 0 },
         transition: { duration: 0.5 },
     };
+
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
 
     return (
         <div className='about-container'>
@@ -147,17 +151,17 @@ const About = () => {
                 </div>
             </div>
             <motion.div className="profile-links" {...fadeIn}>
-               <h4>Profile Links</h4>
-               <div className='card-container'>
-                        {profileLinks.map((item, index) => (
-                            <div className='card-item' key={index}>
-                                <a href={item.href} target="_blank" rel="noopener noreferrer">
-                                    <img src={item.src} alt={item.alt} />
-                                    <p>{item.alt}</p>
-                                </a>
-                            </div>
-                        ))}
-               </div>
+                <h4>Profile Links</h4>
+                <div className='card-container'>
+                    {profileLinks.map((item, index) => (
+                        <div className='card-item' key={index}>
+                            <a href={item.href} target="_blank" rel="noopener noreferrer">
+                                <img src={item.src} alt={item.alt} />
+                                <p>{item.alt}</p>
+                            </a>
+                        </div>
+                    ))}
+                </div>
             </motion.div>
         </div>
     );
