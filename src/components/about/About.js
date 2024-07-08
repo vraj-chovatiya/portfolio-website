@@ -75,7 +75,7 @@ const About = () => {
                     </p>
                     <a
                         href="https://drive.google.com/file/d/1LwvBzRpjYZtC3JkqiJ3zNxHuqLbihTnd/view?usp=sharing"
-                        className="codepen-button"
+                        className="codepen-button" target='_blank'
                     >
                         <span>Download CV</span>
                     </a>

@@ -48,7 +48,7 @@ const Education = () => {
                     </div>
                     <div className='timeline-item'>
                         <div className='timeline-content'>
-                            <h2>Year2023- 2025</h2>
+                            <h2>Year2023-2025</h2>
                             <h3>Master of Computer Application (MCA)</h3>
                             <p>Institute of Technology Nirma University, Ahmedabad.</p>
                             <p className='highlight'>CGPA: 7.75</p>

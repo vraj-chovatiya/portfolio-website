@@ -9,6 +9,7 @@ import Experience from './components/experience/Experience';
 import Projects from './components/projects/Projects';
 import Contact from './components/contact/Contact';
 import './app.css';
+import Blog from './components/blog/Blog';
 
 const App = () => {
     return (
@@ -22,6 +23,8 @@ const App = () => {
                     <Route path="/experience" element={<Experience />} />
                     <Route path="/projects" element={<Projects />} />
                     <Route path="/contact" element={<Contact />} />
+                    <Route path="/blog" element={<Blog />} />
+                    
                     {/* Catch all unmatched routes */}
                     <Route path="*" element={<Home />} />
                 </Routes>

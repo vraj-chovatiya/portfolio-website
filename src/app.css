@@ -2,7 +2,7 @@
   --background: black;
   --primary-color: white;
   --gradient: linear-gradient(90deg, yellow, #00d4ff);
-  --gradient2: linear-gradient(180deg, #333, #00d4ff);
+  /* --gradient2: linear-gradient(180deg, #333, #00d4ff); */
   --gradient2: linear-gradient(180deg, #00d4ff, yellow);
   --blue: #00d4ff;
   --yellow: yellow;

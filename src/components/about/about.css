@@ -42,7 +42,6 @@ h4::after {
     font-style: normal;
     letter-spacing: 1px;
     font-size: 2.5rem;
-    margin-bottom: -15px;
 }
 
 .heading-about p {
@@ -52,7 +51,7 @@ h4::after {
     font-style: normal;
     letter-spacing: 1px;
     font-size: 0.9rem;
-    margin-top: 20px;
+    margin-top: 5px;
 }
 
 .about-content {
@@ -133,7 +132,7 @@ h4::after {
 
 .work-item h2 {
     font-size: 3rem;
-    background: var(--gradient);
+    background: var(--gradient2);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     margin-bottom: 10px;
@@ -142,7 +141,7 @@ h4::after {
 
 .work-item p {
     font-size: 1.2rem;
-    color: #333;
+    color: #3a3a3a;
 }
 
 .about-container .languages {
