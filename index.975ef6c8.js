@@ -27230,6 +27230,8 @@ var _projectsDefault = parcelHelpers.interopDefault(_projects);
 var _contact = require("./components/contact/Contact");
 var _contactDefault = parcelHelpers.interopDefault(_contact);
 var _appCss = require("./app.css");
+var _blog = require("./components/blog/Blog");
+var _blogDefault = parcelHelpers.interopDefault(_blog);
 const App = ()=>{
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.BrowserRouter), {
         children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -27237,7 +27239,7 @@ const App = ()=>{
             children: [
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _navbarDefault.default), {}, void 0, false, {
                     fileName: "src/App.js",
-                    lineNumber: 17,
+                    lineNumber: 18,
                     columnNumber: 17
                 }, undefined),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Routes), {
@@ -27246,20 +27248,8 @@ const App = ()=>{
                             path: "/",
                             element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _homeDefault.default), {}, void 0, false, {
                                 fileName: "src/App.js",
-                                lineNumber: 19,
-                                columnNumber: 46
-                            }, void 0)
-                        }, void 0, false, {
-                            fileName: "src/App.js",
-                            lineNumber: 19,
-                            columnNumber: 21
-                        }, undefined),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Route), {
-                            path: "/about",
-                            element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _aboutDefault.default), {}, void 0, false, {
-                                fileName: "src/App.js",
                                 lineNumber: 20,
-                                columnNumber: 51
+                                columnNumber: 46
                             }, void 0)
                         }, void 0, false, {
                             fileName: "src/App.js",
@@ -27267,11 +27257,11 @@ const App = ()=>{
                             columnNumber: 21
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Route), {
-                            path: "/education",
-                            element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _educationDefault.default), {}, void 0, false, {
+                            path: "/about",
+                            element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _aboutDefault.default), {}, void 0, false, {
                                 fileName: "src/App.js",
                                 lineNumber: 21,
-                                columnNumber: 55
+                                columnNumber: 51
                             }, void 0)
                         }, void 0, false, {
                             fileName: "src/App.js",
@@ -27279,11 +27269,11 @@ const App = ()=>{
                             columnNumber: 21
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Route), {
-                            path: "/experience",
-                            element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _experienceDefault.default), {}, void 0, false, {
+                            path: "/education",
+                            element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _educationDefault.default), {}, void 0, false, {
                                 fileName: "src/App.js",
                                 lineNumber: 22,
-                                columnNumber: 56
+                                columnNumber: 55
                             }, void 0)
                         }, void 0, false, {
                             fileName: "src/App.js",
@@ -27291,11 +27281,11 @@ const App = ()=>{
                             columnNumber: 21
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Route), {
-                            path: "/projects",
-                            element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _projectsDefault.default), {}, void 0, false, {
+                            path: "/experience",
+                            element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _experienceDefault.default), {}, void 0, false, {
                                 fileName: "src/App.js",
                                 lineNumber: 23,
-                                columnNumber: 54
+                                columnNumber: 56
                             }, void 0)
                         }, void 0, false, {
                             fileName: "src/App.js",
@@ -27303,11 +27293,11 @@ const App = ()=>{
                             columnNumber: 21
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Route), {
-                            path: "/contact",
-                            element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _contactDefault.default), {}, void 0, false, {
+                            path: "/projects",
+                            element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _projectsDefault.default), {}, void 0, false, {
                                 fileName: "src/App.js",
                                 lineNumber: 24,
-                                columnNumber: 53
+                                columnNumber: 54
                             }, void 0)
                         }, void 0, false, {
                             fileName: "src/App.js",
@@ -27315,37 +27305,61 @@ const App = ()=>{
                             columnNumber: 21
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Route), {
-                            path: "*",
-                            element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _homeDefault.default), {}, void 0, false, {
+                            path: "/contact",
+                            element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _contactDefault.default), {}, void 0, false, {
+                                fileName: "src/App.js",
+                                lineNumber: 25,
+                                columnNumber: 53
+                            }, void 0)
+                        }, void 0, false, {
+                            fileName: "src/App.js",
+                            lineNumber: 25,
+                            columnNumber: 21
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Route), {
+                            path: "/blog",
+                            element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _blogDefault.default), {}, void 0, false, {
                                 fileName: "src/App.js",
                                 lineNumber: 26,
-                                columnNumber: 46
+                                columnNumber: 50
                             }, void 0)
                         }, void 0, false, {
                             fileName: "src/App.js",
                             lineNumber: 26,
                             columnNumber: 21
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Route), {
+                            path: "*",
+                            element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _homeDefault.default), {}, void 0, false, {
+                                fileName: "src/App.js",
+                                lineNumber: 29,
+                                columnNumber: 46
+                            }, void 0)
+                        }, void 0, false, {
+                            fileName: "src/App.js",
+                            lineNumber: 29,
+                            columnNumber: 21
                         }, undefined)
                     ]
                 }, void 0, true, {
                     fileName: "src/App.js",
-                    lineNumber: 18,
+                    lineNumber: 19,
                     columnNumber: 17
                 }, undefined),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _footerDefault.default), {}, void 0, false, {
                     fileName: "src/App.js",
-                    lineNumber: 28,
+                    lineNumber: 31,
                     columnNumber: 17
                 }, undefined)
             ]
         }, void 0, true, {
             fileName: "src/App.js",
-            lineNumber: 16,
+            lineNumber: 17,
             columnNumber: 13
         }, undefined)
     }, void 0, false, {
         fileName: "src/App.js",
-        lineNumber: 15,
+        lineNumber: 16,
         columnNumber: 9
     }, undefined);
 };
@@ -27359,7 +27373,7 @@ $RefreshReg$(_c, "App");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","./components/navbar/Navbar":"3cu6u","./components/home/Home":"2UxNm","./components/footer/Footer":"b54nx","react-router-dom":"9xmpe","./components/about/About":"jbBPJ","./components/contact/Contact":"a2AFh","./components/education/Education":"lxmqC","./components/experience/Experience":"aSwk9","./components/projects/Projects":"k2t13","./app.css":"j7YWT"}],"gkKU3":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","./components/navbar/Navbar":"3cu6u","./components/home/Home":"2UxNm","./components/footer/Footer":"b54nx","react-router-dom":"9xmpe","./components/about/About":"jbBPJ","./components/contact/Contact":"a2AFh","./components/education/Education":"lxmqC","./components/experience/Experience":"aSwk9","./components/projects/Projects":"k2t13","./app.css":"j7YWT","./components/blog/Blog":"fPXQE"}],"gkKU3":[function(require,module,exports) {
 exports.interopDefault = function(a) {
     return a && a.__esModule ? a : {
         default: a
@@ -27652,8 +27666,8 @@ const Navbar = ()=>{
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
                         children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
-                            to: "/contact",
-                            children: "Contact"
+                            to: "/blog",
+                            children: "Blog"
                         }, void 0, false, {
                             fileName: "src/components/navbar/Navbar.js",
                             lineNumber: 27,
@@ -27662,6 +27676,20 @@ const Navbar = ()=>{
                     }, void 0, false, {
                         fileName: "src/components/navbar/Navbar.js",
                         lineNumber: 27,
+                        columnNumber: 17
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
+                            to: "/contact",
+                            children: "Contact"
+                        }, void 0, false, {
+                            fileName: "src/components/navbar/Navbar.js",
+                            lineNumber: 28,
+                            columnNumber: 21
+                        }, undefined)
+                    }, void 0, false, {
+                        fileName: "src/components/navbar/Navbar.js",
+                        lineNumber: 28,
                         columnNumber: 17
                     }, undefined)
                 ]
@@ -55643,6 +55671,7 @@ const About = ()=>{
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
                             href: "https://drive.google.com/file/d/1LwvBzRpjYZtC3JkqiJ3zNxHuqLbihTnd/view?usp=sharing",
                             className: "codepen-button",
+                            target: "_blank",
                             children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
                                 children: "Download CV"
                             }, void 0, false, {
@@ -57810,7 +57839,7 @@ const Education = ()=>{
                                 className: "timeline-content",
                                 children: [
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
-                                        children: "Year2023- 2025"
+                                        children: "Year2023-2025"
                                     }, void 0, false, {
                                         fileName: "src/components/education/Education.js",
                                         lineNumber: 51,
@@ -58231,6 +58260,106 @@ $RefreshReg$(_c, "Projects");
 },{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","./projects.css":"5mk8P","framer-motion":"5bZBB","../../assets/img/flipkart.png":"gepzT"}],"5mk8P":[function() {},{}],"gepzT":[function(require,module,exports) {
 module.exports = require("af99a0294dfde80e").getBundleURL("bLxZJ") + "flipkart.4fd4c101.png" + "?" + Date.now();
 
-},{"af99a0294dfde80e":"lgJ39"}],"j7YWT":[function() {},{}],"irmnC":[function() {},{}]},["farZc","1xC6H","8lqZg"], "8lqZg", "parcelRequiree1fe")
+},{"af99a0294dfde80e":"lgJ39"}],"j7YWT":[function() {},{}],"fPXQE":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$ac65 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$ac65.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _framerMotion = require("framer-motion");
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+var _blogCss = require("./blog.css");
+const Blog = ()=>{
+    const fadeIn = {
+        initial: {
+            opacity: 0,
+            y: 25
+        },
+        animate: {
+            opacity: 1,
+            y: 0
+        },
+        transition: {
+            duration: 0.5
+        }
+    };
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jsxDevRuntime.Fragment), {
+        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+            className: "blog-container",
+            children: [
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _framerMotion.motion).div, {
+                    className: "heading-blog",
+                    ...fadeIn,
+                    children: [
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
+                            children: "Here's My Blog"
+                        }, void 0, false, {
+                            fileName: "src/components/blog/Blog.js",
+                            lineNumber: 19,
+                            columnNumber: 21
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                            children: "Here's the information about my blog..."
+                        }, void 0, false, {
+                            fileName: "src/components/blog/Blog.js",
+                            lineNumber: 20,
+                            columnNumber: 21
+                        }, undefined)
+                    ]
+                }, void 0, true, {
+                    fileName: "src/components/blog/Blog.js",
+                    lineNumber: 18,
+                    columnNumber: 17
+                }, undefined),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _framerMotion.motion).div, {
+                    className: "blog-content",
+                    ...fadeIn,
+                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
+                        children: [
+                            "Under Construction...\uD83D\uDE09 but you can check ",
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                                href: "https://medium.com/@vrajchovatiya414",
+                                target: "_blank",
+                                children: "here"
+                            }, void 0, false, {
+                                fileName: "src/components/blog/Blog.js",
+                                lineNumber: 23,
+                                columnNumber: 67
+                            }, undefined)
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/components/blog/Blog.js",
+                        lineNumber: 23,
+                        columnNumber: 21
+                    }, undefined)
+                }, void 0, false, {
+                    fileName: "src/components/blog/Blog.js",
+                    lineNumber: 22,
+                    columnNumber: 17
+                }, undefined)
+            ]
+        }, void 0, true, {
+            fileName: "src/components/blog/Blog.js",
+            lineNumber: 17,
+            columnNumber: 13
+        }, undefined)
+    }, void 0, false);
+};
+_c = Blog;
+exports.default = Blog;
+var _c;
+$RefreshReg$(_c, "Blog");
+
+  $parcel$ReactRefreshHelpers$ac65.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","framer-motion":"5bZBB","./blog.css":"kg7MO"}],"kg7MO":[function() {},{}],"irmnC":[function() {},{}]},["farZc","1xC6H","8lqZg"], "8lqZg", "parcelRequiree1fe")
 
 //# sourceMappingURL=index.975ef6c8.js.map
