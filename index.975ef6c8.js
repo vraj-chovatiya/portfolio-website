@@ -58137,6 +58137,13 @@ const projects = [
         discription: "This is a simple Real-Time Tracking Application. Build using Socket.io, Node.js, and Express.",
         image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfWeqeGD1Mo3v3Dl77zhQBdS1IyaPof5iPPg&s",
         github: "https://github.com/vraj-chovatiya/"
+    },
+    {
+        id: 8,
+        title: "Image Search Engine",
+        discription: "This is a simple Image Search Engine. Build using JavaScript and Unsplash API.",
+        image: "https://raw.githubusercontent.com/vraj-chovatiya/image-search-engine/main/screenshot.png",
+        github: "https://github.com/vraj-chovatiya/image-search-engine"
     }
 ];
 const Projects = ()=>{
@@ -58167,20 +58174,20 @@ const Projects = ()=>{
                         children: "Here's My Project"
                     }, void 0, false, {
                         fileName: "src/components/projects/Projects.js",
-                        lineNumber: 75,
+                        lineNumber: 82,
                         columnNumber: 17
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                         children: "Here's the project that I have created In this journey.."
                     }, void 0, false, {
                         fileName: "src/components/projects/Projects.js",
-                        lineNumber: 76,
+                        lineNumber: 83,
                         columnNumber: 17
                     }, undefined)
                 ]
             }, void 0, true, {
                 fileName: "src/components/projects/Projects.js",
-                lineNumber: 74,
+                lineNumber: 81,
                 columnNumber: 13
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _framerMotion.motion).div, {
@@ -58195,7 +58202,7 @@ const Projects = ()=>{
                                 className: "project-image"
                             }, void 0, false, {
                                 fileName: "src/components/projects/Projects.js",
-                                lineNumber: 81,
+                                lineNumber: 88,
                                 columnNumber: 25
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -58205,14 +58212,14 @@ const Projects = ()=>{
                                         children: project.title
                                     }, void 0, false, {
                                         fileName: "src/components/projects/Projects.js",
-                                        lineNumber: 83,
+                                        lineNumber: 90,
                                         columnNumber: 29
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                                         children: project.discription
                                     }, void 0, false, {
                                         fileName: "src/components/projects/Projects.js",
-                                        lineNumber: 84,
+                                        lineNumber: 91,
                                         columnNumber: 29
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
@@ -58223,24 +58230,24 @@ const Projects = ()=>{
                                         children: "View on GitHub"
                                     }, void 0, false, {
                                         fileName: "src/components/projects/Projects.js",
-                                        lineNumber: 85,
+                                        lineNumber: 92,
                                         columnNumber: 29
                                     }, undefined)
                                 ]
                             }, void 0, true, {
                                 fileName: "src/components/projects/Projects.js",
-                                lineNumber: 82,
+                                lineNumber: 89,
                                 columnNumber: 25
                             }, undefined)
                         ]
                     }, project.id, true, {
                         fileName: "src/components/projects/Projects.js",
-                        lineNumber: 80,
+                        lineNumber: 87,
                         columnNumber: 21
                     }, undefined))
             }, void 0, false, {
                 fileName: "src/components/projects/Projects.js",
-                lineNumber: 78,
+                lineNumber: 85,
                 columnNumber: 13
             }, undefined)
         ]
