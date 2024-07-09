@@ -53,6 +53,13 @@ const projects = [
         image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfWeqeGD1Mo3v3Dl77zhQBdS1IyaPof5iPPg&s",
         github: "https://github.com/vraj-chovatiya/"
     },
+    {
+        id: 8,
+        title: "Image Search Engine",
+        discription: "This is a simple Image Search Engine. Build using JavaScript and Unsplash API.",
+        image: "https://raw.githubusercontent.com/vraj-chovatiya/image-search-engine/main/screenshot.png",
+        github: "https://github.com/vraj-chovatiya/image-search-engine"
+    },
 
     // Add more projects as needed
 ];
