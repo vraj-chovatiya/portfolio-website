@@ -10,6 +10,10 @@ const Navbar = () => {
         setIsOpen(!isOpen);
     }
 
+    function closeNav(){
+        setIsOpen(false);
+    }
+
     return (
         <nav className="navbar">
             <div className='nav-responsive'>
@@ -19,13 +23,13 @@ const Navbar = () => {
                 </button>
             </div>
             <ul className={`navbar-links ${isOpen ? 'open' : ''}`}>
-                <li><Link to="/">Home</Link></li>
-                <li><Link to="/about">About</Link></li>
-                <li><Link to="/education">Education</Link></li>
-                <li><Link to="/experience">Experience</Link></li>
-                <li><Link to="/projects">Projects</Link></li>
-                <li><Link to="/blog">Blog</Link></li>
-                <li><Link to="/contact">Contact</Link></li>
+                <li><Link to="/" onClick={closeNav}>Home</Link></li>
+                <li><Link to="/about" onClick={closeNav}>About</Link></li>
+                <li><Link to="/education" onClick={closeNav}>Education</Link></li>
+                <li><Link to="/experience" onClick={closeNav}>Experience</Link></li>
+                <li><Link to="/projects" onClick={closeNav}>Projects</Link></li>
+                <li><Link to="/blog" onClick={closeNav}>Blog</Link></li>
+                <li><Link to="/contact" onClick={closeNav}>Contact</Link></li>
             </ul>
         </nav>
     );
