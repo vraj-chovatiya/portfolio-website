@@ -27562,6 +27562,9 @@ const Navbar = ()=>{
     function toggleNavbar() {
         setIsOpen(!isOpen);
     }
+    function closeNav() {
+        setIsOpen(false);
+    }
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("nav", {
         className: "navbar",
         children: [
@@ -27573,7 +27576,7 @@ const Navbar = ()=>{
                         children: "vraj chovatiya"
                     }, void 0, false, {
                         fileName: "src/components/navbar/Navbar.js",
-                        lineNumber: 16,
+                        lineNumber: 20,
                         columnNumber: 17
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
@@ -27582,13 +27585,13 @@ const Navbar = ()=>{
                         children: "\u2630"
                     }, void 0, false, {
                         fileName: "src/components/navbar/Navbar.js",
-                        lineNumber: 17,
+                        lineNumber: 21,
                         columnNumber: 17
                     }, undefined)
                 ]
             }, void 0, true, {
                 fileName: "src/components/navbar/Navbar.js",
-                lineNumber: 15,
+                lineNumber: 19,
                 columnNumber: 13
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
@@ -27597,63 +27600,8 @@ const Navbar = ()=>{
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
                         children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
                             to: "/",
+                            onClick: closeNav,
                             children: "Home"
-                        }, void 0, false, {
-                            fileName: "src/components/navbar/Navbar.js",
-                            lineNumber: 22,
-                            columnNumber: 21
-                        }, undefined)
-                    }, void 0, false, {
-                        fileName: "src/components/navbar/Navbar.js",
-                        lineNumber: 22,
-                        columnNumber: 17
-                    }, undefined),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
-                            to: "/about",
-                            children: "About"
-                        }, void 0, false, {
-                            fileName: "src/components/navbar/Navbar.js",
-                            lineNumber: 23,
-                            columnNumber: 21
-                        }, undefined)
-                    }, void 0, false, {
-                        fileName: "src/components/navbar/Navbar.js",
-                        lineNumber: 23,
-                        columnNumber: 17
-                    }, undefined),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
-                            to: "/education",
-                            children: "Education"
-                        }, void 0, false, {
-                            fileName: "src/components/navbar/Navbar.js",
-                            lineNumber: 24,
-                            columnNumber: 21
-                        }, undefined)
-                    }, void 0, false, {
-                        fileName: "src/components/navbar/Navbar.js",
-                        lineNumber: 24,
-                        columnNumber: 17
-                    }, undefined),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
-                            to: "/experience",
-                            children: "Experience"
-                        }, void 0, false, {
-                            fileName: "src/components/navbar/Navbar.js",
-                            lineNumber: 25,
-                            columnNumber: 21
-                        }, undefined)
-                    }, void 0, false, {
-                        fileName: "src/components/navbar/Navbar.js",
-                        lineNumber: 25,
-                        columnNumber: 17
-                    }, undefined),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
-                            to: "/projects",
-                            children: "Projects"
                         }, void 0, false, {
                             fileName: "src/components/navbar/Navbar.js",
                             lineNumber: 26,
@@ -27666,8 +27614,9 @@ const Navbar = ()=>{
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
                         children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
-                            to: "/blog",
-                            children: "Blog"
+                            to: "/about",
+                            onClick: closeNav,
+                            children: "About"
                         }, void 0, false, {
                             fileName: "src/components/navbar/Navbar.js",
                             lineNumber: 27,
@@ -27680,8 +27629,9 @@ const Navbar = ()=>{
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
                         children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
-                            to: "/contact",
-                            children: "Contact"
+                            to: "/education",
+                            onClick: closeNav,
+                            children: "Education"
                         }, void 0, false, {
                             fileName: "src/components/navbar/Navbar.js",
                             lineNumber: 28,
@@ -27691,17 +27641,77 @@ const Navbar = ()=>{
                         fileName: "src/components/navbar/Navbar.js",
                         lineNumber: 28,
                         columnNumber: 17
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
+                            to: "/experience",
+                            onClick: closeNav,
+                            children: "Experience"
+                        }, void 0, false, {
+                            fileName: "src/components/navbar/Navbar.js",
+                            lineNumber: 29,
+                            columnNumber: 21
+                        }, undefined)
+                    }, void 0, false, {
+                        fileName: "src/components/navbar/Navbar.js",
+                        lineNumber: 29,
+                        columnNumber: 17
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
+                            to: "/projects",
+                            onClick: closeNav,
+                            children: "Projects"
+                        }, void 0, false, {
+                            fileName: "src/components/navbar/Navbar.js",
+                            lineNumber: 30,
+                            columnNumber: 21
+                        }, undefined)
+                    }, void 0, false, {
+                        fileName: "src/components/navbar/Navbar.js",
+                        lineNumber: 30,
+                        columnNumber: 17
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
+                            to: "/blog",
+                            onClick: closeNav,
+                            children: "Blog"
+                        }, void 0, false, {
+                            fileName: "src/components/navbar/Navbar.js",
+                            lineNumber: 31,
+                            columnNumber: 21
+                        }, undefined)
+                    }, void 0, false, {
+                        fileName: "src/components/navbar/Navbar.js",
+                        lineNumber: 31,
+                        columnNumber: 17
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
+                            to: "/contact",
+                            onClick: closeNav,
+                            children: "Contact"
+                        }, void 0, false, {
+                            fileName: "src/components/navbar/Navbar.js",
+                            lineNumber: 32,
+                            columnNumber: 21
+                        }, undefined)
+                    }, void 0, false, {
+                        fileName: "src/components/navbar/Navbar.js",
+                        lineNumber: 32,
+                        columnNumber: 17
                     }, undefined)
                 ]
             }, void 0, true, {
                 fileName: "src/components/navbar/Navbar.js",
-                lineNumber: 21,
+                lineNumber: 25,
                 columnNumber: 13
             }, undefined)
         ]
     }, void 0, true, {
         fileName: "src/components/navbar/Navbar.js",
-        lineNumber: 14,
+        lineNumber: 18,
         columnNumber: 9
     }, undefined);
 };
