@@ -55949,18 +55949,18 @@ const About = ()=>{
                                                 alt: item.name
                                             }, void 0, false, {
                                                 fileName: "src/components/about/About.js",
-                                                lineNumber: 146,
+                                                lineNumber: 147,
                                                 columnNumber: 33
                                             }, undefined),
                                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                                                 children: item.name
                                             }, void 0, false, {
                                                 fileName: "src/components/about/About.js",
-                                                lineNumber: 147,
+                                                lineNumber: 148,
                                                 columnNumber: 33
                                             }, undefined)
                                         ]
-                                    }, void 0, true, {
+                                    }, index, true, {
                                         fileName: "src/components/about/About.js",
                                         lineNumber: 141,
                                         columnNumber: 29
@@ -55990,7 +55990,7 @@ const About = ()=>{
                         children: "Profile Links"
                     }, void 0, false, {
                         fileName: "src/components/about/About.js",
-                        lineNumber: 154,
+                        lineNumber: 155,
                         columnNumber: 17
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -56007,36 +56007,36 @@ const About = ()=>{
                                             alt: item.alt
                                         }, void 0, false, {
                                             fileName: "src/components/about/About.js",
-                                            lineNumber: 159,
+                                            lineNumber: 160,
                                             columnNumber: 33
                                         }, undefined),
                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                                             children: item.alt
                                         }, void 0, false, {
                                             fileName: "src/components/about/About.js",
-                                            lineNumber: 160,
+                                            lineNumber: 161,
                                             columnNumber: 33
                                         }, undefined)
                                     ]
                                 }, void 0, true, {
                                     fileName: "src/components/about/About.js",
-                                    lineNumber: 158,
+                                    lineNumber: 159,
                                     columnNumber: 29
                                 }, undefined)
                             }, index, false, {
                                 fileName: "src/components/about/About.js",
-                                lineNumber: 157,
+                                lineNumber: 158,
                                 columnNumber: 25
                             }, undefined))
                     }, void 0, false, {
                         fileName: "src/components/about/About.js",
-                        lineNumber: 155,
+                        lineNumber: 156,
                         columnNumber: 17
                     }, undefined)
                 ]
             }, void 0, true, {
                 fileName: "src/components/about/About.js",
-                lineNumber: 153,
+                lineNumber: 154,
                 columnNumber: 13
             }, undefined)
         ]
@@ -58095,67 +58095,9 @@ var _react = require("react");
 var _reactDefault = parcelHelpers.interopDefault(_react);
 var _projectsCss = require("./projects.css");
 var _framerMotion = require("framer-motion");
-var _flipkartPng = require("../../assets/img/flipkart.png");
-var _flipkartPngDefault = parcelHelpers.interopDefault(_flipkartPng);
+var _projectDataJson = require("./projectData.json");
+var _projectDataJsonDefault = parcelHelpers.interopDefault(_projectDataJson);
 var _s = $RefreshSig$();
-const projects = [
-    {
-        id: 1,
-        title: "flipkart-clone",
-        discription: "This project contains the front-end UI design of the Flipkart website, built using ReactJS.",
-        image: "https://raw.githubusercontent.com/vraj-chovatiya/flipkart-clone/main/Screenshot%20(62).png",
-        github: "https://github.com/vraj-chovatiya/flipkart-clone"
-    },
-    {
-        id: 2,
-        title: "Personal Portfolio",
-        discription: "A showcase of my projects, skills, and professional experience as a web developer.",
-        image: "https://i.imgur.com/vTUrDak.png",
-        github: "https://github.com/vraj-chovatiya/portfolio-website"
-    },
-    {
-        id: 3,
-        title: "Weather WebApp",
-        discription: "This is a weather web app that shows the weather of the city. Build using HTML, CSS, and JavaScript.",
-        image: "https://i.imgur.com/yboqKpS.png",
-        github: "https://github.com/vraj-chovatiya/PRODIGY_WD_05"
-    },
-    {
-        id: 4,
-        title: "Restaurant WebPage",
-        discription: "This is a single page website for the restaurant. Build using HTML, CSS, and JavaScript only.",
-        image: "https://i.imgur.com/kPer6Ya.png",
-        github: "https://github.com/vraj-chovatiya/PRODIGY_WD_01"
-    },
-    {
-        id: 5,
-        title: "StopWatch",
-        discription: "This is a simple stopwatch application built using HTML, CSS, and JavaScript.",
-        image: "https://i.imgur.com/Lmortak.png",
-        github: "https://github.com/vraj-chovatiya/PRODIGY_WD_02"
-    },
-    {
-        id: 6,
-        title: "React Bundler with Parcel",
-        discription: "This is a simple React application bundled with Parcel.",
-        image: "https://parceljs.org/assets/home-og.png",
-        github: "https://github.com/vraj-chovatiya/parcel-react-app"
-    },
-    {
-        id: 7,
-        title: "Real-Time Tracking App",
-        discription: "This is a simple Real-Time Tracking Application. Build using Socket.io, Node.js, and Express.",
-        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfWeqeGD1Mo3v3Dl77zhQBdS1IyaPof5iPPg&s",
-        github: "https://github.com/vraj-chovatiya/"
-    },
-    {
-        id: 8,
-        title: "Image Search Engine",
-        discription: "This is a simple Image Search Engine. Build using JavaScript and Unsplash API.",
-        image: "https://raw.githubusercontent.com/vraj-chovatiya/image-search-engine/main/screenshot.png",
-        github: "https://github.com/vraj-chovatiya/image-search-engine"
-    }
-];
 const Projects = ()=>{
     _s();
     const fadeIn = {
@@ -58184,26 +58126,26 @@ const Projects = ()=>{
                         children: "Here's My Project"
                     }, void 0, false, {
                         fileName: "src/components/projects/Projects.js",
-                        lineNumber: 82,
+                        lineNumber: 22,
                         columnNumber: 17
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                         children: "Here's the project that I have created In this journey.."
                     }, void 0, false, {
                         fileName: "src/components/projects/Projects.js",
-                        lineNumber: 83,
+                        lineNumber: 23,
                         columnNumber: 17
                     }, undefined)
                 ]
             }, void 0, true, {
                 fileName: "src/components/projects/Projects.js",
-                lineNumber: 81,
+                lineNumber: 21,
                 columnNumber: 13
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _framerMotion.motion).div, {
                 className: "project-container",
                 ...fadeIn,
-                children: projects.map((project)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                children: (0, _projectDataJsonDefault.default).map((project)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                         className: "project-card",
                         children: [
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
@@ -58212,7 +58154,7 @@ const Projects = ()=>{
                                 className: "project-image"
                             }, void 0, false, {
                                 fileName: "src/components/projects/Projects.js",
-                                lineNumber: 88,
+                                lineNumber: 28,
                                 columnNumber: 25
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -58222,14 +58164,14 @@ const Projects = ()=>{
                                         children: project.title
                                     }, void 0, false, {
                                         fileName: "src/components/projects/Projects.js",
-                                        lineNumber: 90,
+                                        lineNumber: 30,
                                         columnNumber: 29
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                                         children: project.discription
                                     }, void 0, false, {
                                         fileName: "src/components/projects/Projects.js",
-                                        lineNumber: 91,
+                                        lineNumber: 31,
                                         columnNumber: 29
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
@@ -58240,24 +58182,24 @@ const Projects = ()=>{
                                         children: "View on GitHub"
                                     }, void 0, false, {
                                         fileName: "src/components/projects/Projects.js",
-                                        lineNumber: 92,
+                                        lineNumber: 32,
                                         columnNumber: 29
                                     }, undefined)
                                 ]
                             }, void 0, true, {
                                 fileName: "src/components/projects/Projects.js",
-                                lineNumber: 89,
+                                lineNumber: 29,
                                 columnNumber: 25
                             }, undefined)
                         ]
                     }, project.id, true, {
                         fileName: "src/components/projects/Projects.js",
-                        lineNumber: 87,
+                        lineNumber: 27,
                         columnNumber: 21
                     }, undefined))
             }, void 0, false, {
                 fileName: "src/components/projects/Projects.js",
-                lineNumber: 85,
+                lineNumber: 25,
                 columnNumber: 13
             }, undefined)
         ]
@@ -58274,10 +58216,10 @@ $RefreshReg$(_c, "Projects");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","./projects.css":"5mk8P","framer-motion":"5bZBB","../../assets/img/flipkart.png":"gepzT"}],"5mk8P":[function() {},{}],"gepzT":[function(require,module,exports) {
-module.exports = require("af99a0294dfde80e").getBundleURL("bLxZJ") + "flipkart.4fd4c101.png" + "?" + Date.now();
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","./projects.css":"5mk8P","framer-motion":"5bZBB","./projectData.json":"cMLqS"}],"5mk8P":[function() {},{}],"cMLqS":[function(require,module,exports) {
+module.exports = JSON.parse('[{"id":1,"title":"flipkart-clone","discription":"This project contains the front-end UI design of the Flipkart website, built using ReactJS.","image":"https://raw.githubusercontent.com/vraj-chovatiya/flipkart-clone/main/Screenshot%20(62).png","github":"https://github.com/vraj-chovatiya/flipkart-clone"},{"id":2,"title":"Personal Portfolio","discription":"A showcase of my projects, skills, and professional experience as a web developer.","image":"https://i.imgur.com/vTUrDak.png","github":"https://github.com/vraj-chovatiya/portfolio-website"},{"id":3,"title":"Weather WebApp","discription":"This is a weather web app that shows the weather of the city. Build using HTML, CSS, and JavaScript.","image":"https://i.imgur.com/yboqKpS.png","github":"https://github.com/vraj-chovatiya/PRODIGY_WD_05"},{"id":4,"title":"Restaurant WebPage","discription":"This is a single page website for the restaurant. Build using HTML, CSS, and JavaScript only.","image":"https://i.imgur.com/kPer6Ya.png","github":"https://github.com/vraj-chovatiya/PRODIGY_WD_01"},{"id":5,"title":"StopWatch","discription":"This is a simple stopwatch application built using HTML, CSS, and JavaScript.","image":"https://i.imgur.com/Lmortak.png","github":"https://github.com/vraj-chovatiya/PRODIGY_WD_02"},{"id":6,"title":"React Bundler with Parcel","discription":"This is a simple React application bundled with Parcel.","image":"https://parceljs.org/assets/home-og.png","github":"https://github.com/vraj-chovatiya/parcel-react-app"},{"id":7,"title":"Real-Time Tracking App","discription":"This is a simple Real-Time Tracking Application. Build using Socket.io, Node.js, and Express.","image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfWeqeGD1Mo3v3Dl77zhQBdS1IyaPof5iPPg&s","github":"https://github.com/vraj-chovatiya/"},{"id":8,"title":"Image Search Engine","discription":"This is a simple Image Search Engine. Build using JavaScript and Unsplash API.","image":"https://raw.githubusercontent.com/vraj-chovatiya/image-search-engine/main/screenshot.png","github":"https://github.com/vraj-chovatiya/image-search-engine"},{"id":9,"title":"QR Code Generator","discription":"QR Code Generator to make your own QR Codes. Support Link, Text, Dynamic Codes and more.","image":"https://i.imgur.com/EJXlmKv.png","github":"https://github.com/vraj-chovatiya/QR-Generator"}]');
 
-},{"af99a0294dfde80e":"lgJ39"}],"j7YWT":[function() {},{}],"fPXQE":[function(require,module,exports) {
+},{}],"j7YWT":[function() {},{}],"fPXQE":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$ac65 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;

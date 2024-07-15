@@ -2744,6 +2744,11 @@ hr {
 }
 
 @media (width <= 480px) {
+  .project-container {
+    gap: 10px;
+    margin: 25px 0;
+  }
+
   .project-card {
     width: 75%;
   }
