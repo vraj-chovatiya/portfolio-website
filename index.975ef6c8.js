@@ -55679,19 +55679,19 @@ const About = ()=>{
                             columnNumber: 21
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                            href: "https://drive.google.com/file/d/1LwvBzRpjYZtC3JkqiJ3zNxHuqLbihTnd/view?usp=sharing",
+                            href: "https://drive.google.com/file/d/12bwIAw6o4X7HiYdamIS3DEHhmJurMSjq/view?usp=sharing",
                             className: "codepen-button",
                             target: "_blank",
                             children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
                                 children: "Download CV"
                             }, void 0, false, {
                                 fileName: "src/components/about/About.js",
-                                lineNumber: 80,
+                                lineNumber: 81,
                                 columnNumber: 25
                             }, undefined)
                         }, void 0, false, {
                             fileName: "src/components/about/About.js",
-                            lineNumber: 76,
+                            lineNumber: 77,
                             columnNumber: 21
                         }, undefined)
                     ]
@@ -55716,20 +55716,20 @@ const About = ()=>{
                                 children: "10+"
                             }, void 0, false, {
                                 fileName: "src/components/about/About.js",
-                                lineNumber: 86,
+                                lineNumber: 87,
                                 columnNumber: 21
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                                 children: "Project"
                             }, void 0, false, {
                                 fileName: "src/components/about/About.js",
-                                lineNumber: 87,
+                                lineNumber: 88,
                                 columnNumber: 21
                             }, undefined)
                         ]
                     }, void 0, true, {
                         fileName: "src/components/about/About.js",
-                        lineNumber: 85,
+                        lineNumber: 86,
                         columnNumber: 17
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -55739,20 +55739,20 @@ const About = ()=>{
                                 children: "5+"
                             }, void 0, false, {
                                 fileName: "src/components/about/About.js",
-                                lineNumber: 90,
+                                lineNumber: 91,
                                 columnNumber: 21
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                                 children: "React Project"
                             }, void 0, false, {
                                 fileName: "src/components/about/About.js",
-                                lineNumber: 91,
+                                lineNumber: 92,
                                 columnNumber: 21
                             }, undefined)
                         ]
                     }, void 0, true, {
                         fileName: "src/components/about/About.js",
-                        lineNumber: 89,
+                        lineNumber: 90,
                         columnNumber: 17
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -55762,20 +55762,20 @@ const About = ()=>{
                                 children: "2+"
                             }, void 0, false, {
                                 fileName: "src/components/about/About.js",
-                                lineNumber: 94,
+                                lineNumber: 95,
                                 columnNumber: 21
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                                 children: "Month of Company experience"
                             }, void 0, false, {
                                 fileName: "src/components/about/About.js",
-                                lineNumber: 95,
+                                lineNumber: 96,
                                 columnNumber: 21
                             }, undefined)
                         ]
                     }, void 0, true, {
                         fileName: "src/components/about/About.js",
-                        lineNumber: 93,
+                        lineNumber: 94,
                         columnNumber: 17
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -55785,26 +55785,26 @@ const About = ()=>{
                                 children: "119+"
                             }, void 0, false, {
                                 fileName: "src/components/about/About.js",
-                                lineNumber: 98,
+                                lineNumber: 99,
                                 columnNumber: 21
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                                 children: "DSA Questions Solved"
                             }, void 0, false, {
                                 fileName: "src/components/about/About.js",
-                                lineNumber: 99,
+                                lineNumber: 100,
                                 columnNumber: 21
                             }, undefined)
                         ]
                     }, void 0, true, {
                         fileName: "src/components/about/About.js",
-                        lineNumber: 97,
+                        lineNumber: 98,
                         columnNumber: 17
                     }, undefined)
                 ]
             }, void 0, true, {
                 fileName: "src/components/about/About.js",
-                lineNumber: 84,
+                lineNumber: 85,
                 columnNumber: 13
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -55814,7 +55814,7 @@ const About = ()=>{
                         children: "Tech Stack"
                     }, void 0, false, {
                         fileName: "src/components/about/About.js",
-                        lineNumber: 104,
+                        lineNumber: 105,
                         columnNumber: 17
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -55823,7 +55823,7 @@ const About = ()=>{
                                 children: "1. Languages"
                             }, void 0, false, {
                                 fileName: "src/components/about/About.js",
-                                lineNumber: 106,
+                                lineNumber: 107,
                                 columnNumber: 21
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
@@ -55843,31 +55843,31 @@ const About = ()=>{
                                                 alt: item.name
                                             }, void 0, false, {
                                                 fileName: "src/components/about/About.js",
-                                                lineNumber: 115,
+                                                lineNumber: 116,
                                                 columnNumber: 33
                                             }, undefined),
                                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                                                 children: item.name
                                             }, void 0, false, {
                                                 fileName: "src/components/about/About.js",
-                                                lineNumber: 116,
+                                                lineNumber: 117,
                                                 columnNumber: 33
                                             }, undefined)
                                         ]
                                     }, index, true, {
                                         fileName: "src/components/about/About.js",
-                                        lineNumber: 109,
+                                        lineNumber: 110,
                                         columnNumber: 29
                                     }, undefined))
                             }, void 0, false, {
                                 fileName: "src/components/about/About.js",
-                                lineNumber: 107,
+                                lineNumber: 108,
                                 columnNumber: 21
                             }, undefined)
                         ]
                     }, void 0, true, {
                         fileName: "src/components/about/About.js",
-                        lineNumber: 105,
+                        lineNumber: 106,
                         columnNumber: 17
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -55876,7 +55876,7 @@ const About = ()=>{
                                 children: "2. Framework and Libraries"
                             }, void 0, false, {
                                 fileName: "src/components/about/About.js",
-                                lineNumber: 122,
+                                lineNumber: 123,
                                 columnNumber: 21
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
@@ -55896,31 +55896,31 @@ const About = ()=>{
                                                 alt: item.name
                                             }, void 0, false, {
                                                 fileName: "src/components/about/About.js",
-                                                lineNumber: 131,
+                                                lineNumber: 132,
                                                 columnNumber: 33
                                             }, undefined),
                                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                                                 children: item.name
                                             }, void 0, false, {
                                                 fileName: "src/components/about/About.js",
-                                                lineNumber: 132,
+                                                lineNumber: 133,
                                                 columnNumber: 33
                                             }, undefined)
                                         ]
                                     }, index, true, {
                                         fileName: "src/components/about/About.js",
-                                        lineNumber: 125,
+                                        lineNumber: 126,
                                         columnNumber: 29
                                     }, undefined))
                             }, void 0, false, {
                                 fileName: "src/components/about/About.js",
-                                lineNumber: 123,
+                                lineNumber: 124,
                                 columnNumber: 21
                             }, undefined)
                         ]
                     }, void 0, true, {
                         fileName: "src/components/about/About.js",
-                        lineNumber: 121,
+                        lineNumber: 122,
                         columnNumber: 17
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -55929,7 +55929,7 @@ const About = ()=>{
                                 children: "3. Other Tools & Technologies"
                             }, void 0, false, {
                                 fileName: "src/components/about/About.js",
-                                lineNumber: 138,
+                                lineNumber: 139,
                                 columnNumber: 21
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
@@ -55949,37 +55949,37 @@ const About = ()=>{
                                                 alt: item.name
                                             }, void 0, false, {
                                                 fileName: "src/components/about/About.js",
-                                                lineNumber: 147,
+                                                lineNumber: 148,
                                                 columnNumber: 33
                                             }, undefined),
                                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                                                 children: item.name
                                             }, void 0, false, {
                                                 fileName: "src/components/about/About.js",
-                                                lineNumber: 148,
+                                                lineNumber: 149,
                                                 columnNumber: 33
                                             }, undefined)
                                         ]
                                     }, index, true, {
                                         fileName: "src/components/about/About.js",
-                                        lineNumber: 141,
+                                        lineNumber: 142,
                                         columnNumber: 29
                                     }, undefined))
                             }, void 0, false, {
                                 fileName: "src/components/about/About.js",
-                                lineNumber: 139,
+                                lineNumber: 140,
                                 columnNumber: 21
                             }, undefined)
                         ]
                     }, void 0, true, {
                         fileName: "src/components/about/About.js",
-                        lineNumber: 137,
+                        lineNumber: 138,
                         columnNumber: 17
                     }, undefined)
                 ]
             }, void 0, true, {
                 fileName: "src/components/about/About.js",
-                lineNumber: 103,
+                lineNumber: 104,
                 columnNumber: 13
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _framerMotion.motion).div, {
@@ -55990,7 +55990,7 @@ const About = ()=>{
                         children: "Profile Links"
                     }, void 0, false, {
                         fileName: "src/components/about/About.js",
-                        lineNumber: 155,
+                        lineNumber: 156,
                         columnNumber: 17
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -56007,36 +56007,36 @@ const About = ()=>{
                                             alt: item.alt
                                         }, void 0, false, {
                                             fileName: "src/components/about/About.js",
-                                            lineNumber: 160,
+                                            lineNumber: 161,
                                             columnNumber: 33
                                         }, undefined),
                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                                             children: item.alt
                                         }, void 0, false, {
                                             fileName: "src/components/about/About.js",
-                                            lineNumber: 161,
+                                            lineNumber: 162,
                                             columnNumber: 33
                                         }, undefined)
                                     ]
                                 }, void 0, true, {
                                     fileName: "src/components/about/About.js",
-                                    lineNumber: 159,
+                                    lineNumber: 160,
                                     columnNumber: 29
                                 }, undefined)
                             }, index, false, {
                                 fileName: "src/components/about/About.js",
-                                lineNumber: 158,
+                                lineNumber: 159,
                                 columnNumber: 25
                             }, undefined))
                     }, void 0, false, {
                         fileName: "src/components/about/About.js",
-                        lineNumber: 156,
+                        lineNumber: 157,
                         columnNumber: 17
                     }, undefined)
                 ]
             }, void 0, true, {
                 fileName: "src/components/about/About.js",
-                lineNumber: 154,
+                lineNumber: 155,
                 columnNumber: 13
             }, undefined)
         ]
@@ -58217,7 +58217,7 @@ $RefreshReg$(_c, "Projects");
   window.$RefreshSig$ = prevRefreshSig;
 }
 },{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","./projects.css":"5mk8P","framer-motion":"5bZBB","./projectData.json":"cMLqS"}],"5mk8P":[function() {},{}],"cMLqS":[function(require,module,exports) {
-module.exports = JSON.parse('[{"id":1,"title":"flipkart-clone","discription":"This project contains the front-end UI design of the Flipkart website, built using ReactJS.","image":"https://raw.githubusercontent.com/vraj-chovatiya/flipkart-clone/main/Screenshot%20(62).png","github":"https://github.com/vraj-chovatiya/flipkart-clone"},{"id":2,"title":"Personal Portfolio","discription":"A showcase of my projects, skills, and professional experience as a web developer.","image":"https://i.imgur.com/vTUrDak.png","github":"https://github.com/vraj-chovatiya/portfolio-website"},{"id":3,"title":"Weather WebApp","discription":"This is a weather web app that shows the weather of the city. Build using HTML, CSS, and JavaScript.","image":"https://i.imgur.com/yboqKpS.png","github":"https://github.com/vraj-chovatiya/PRODIGY_WD_05"},{"id":4,"title":"Restaurant WebPage","discription":"This is a single page website for the restaurant. Build using HTML, CSS, and JavaScript only.","image":"https://i.imgur.com/kPer6Ya.png","github":"https://github.com/vraj-chovatiya/PRODIGY_WD_01"},{"id":5,"title":"StopWatch","discription":"This is a simple stopwatch application built using HTML, CSS, and JavaScript.","image":"https://i.imgur.com/Lmortak.png","github":"https://github.com/vraj-chovatiya/PRODIGY_WD_02"},{"id":6,"title":"React Bundler with Parcel","discription":"This is a simple React application bundled with Parcel.","image":"https://parceljs.org/assets/home-og.png","github":"https://github.com/vraj-chovatiya/parcel-react-app"},{"id":7,"title":"Real-Time Tracking App","discription":"This is a simple Real-Time Tracking Application. Build using Socket.io, Node.js, and Express.","image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfWeqeGD1Mo3v3Dl77zhQBdS1IyaPof5iPPg&s","github":"https://github.com/vraj-chovatiya/"},{"id":8,"title":"Image Search Engine","discription":"This is a simple Image Search Engine. Build using JavaScript and Unsplash API.","image":"https://raw.githubusercontent.com/vraj-chovatiya/image-search-engine/main/screenshot.png","github":"https://github.com/vraj-chovatiya/image-search-engine"},{"id":9,"title":"QR Code Generator","discription":"QR Code Generator to make your own QR Codes. Support Link, Text, Dynamic Codes and more.","image":"https://i.imgur.com/EJXlmKv.png","github":"https://github.com/vraj-chovatiya/QR-Generator"},{"id":10,"title":"Book Store","discription":"The Book Store project is a MERN stack application allowing users to browse and purchase books online. The application is built using React, Node.js, Express, and MongoDB.","image":"https://i.imgur.com/Ozyv8aw.png","github":"https://github.com/vraj-chovatiya"}]');
+module.exports = JSON.parse('[{"id":1,"title":"flipkart-clone","discription":"This project contains the front-end UI design of the Flipkart website, built using ReactJS.","image":"https://raw.githubusercontent.com/vraj-chovatiya/flipkart-clone/main/Screenshot%20(62).png","github":"https://github.com/vraj-chovatiya/flipkart-clone"},{"id":2,"title":"Personal Portfolio","discription":"A showcase of my projects, skills, and professional experience as a web developer.","image":"https://i.imgur.com/vTUrDak.png","github":"https://github.com/vraj-chovatiya/portfolio-website"},{"id":3,"title":"Weather WebApp","discription":"This is a weather web app that shows the weather of the city. Build using HTML, CSS, and JavaScript.","image":"https://i.imgur.com/yboqKpS.png","github":"https://github.com/vraj-chovatiya/PRODIGY_WD_05"},{"id":4,"title":"Restaurant WebPage","discription":"This is a single page website for the restaurant. Build using HTML, CSS, and JavaScript only.","image":"https://i.imgur.com/kPer6Ya.png","github":"https://github.com/vraj-chovatiya/PRODIGY_WD_01"},{"id":5,"title":"StopWatch","discription":"This is a simple stopwatch application built using HTML, CSS, and JavaScript.","image":"https://i.imgur.com/Lmortak.png","github":"https://github.com/vraj-chovatiya/PRODIGY_WD_02"},{"id":6,"title":"React Bundler with Parcel","discription":"This is a simple React application bundled with Parcel.","image":"https://parceljs.org/assets/home-og.png","github":"https://github.com/vraj-chovatiya/parcel-react-app"},{"id":7,"title":"Real-Time Tracking App","discription":"This is a simple Real-Time Tracking Application. Build using Socket.io, Node.js, and Express.","image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfWeqeGD1Mo3v3Dl77zhQBdS1IyaPof5iPPg&s","github":"https://github.com/vraj-chovatiya/"},{"id":8,"title":"Image Search Engine","discription":"This is a simple Image Search Engine. Build using JavaScript and Unsplash API.","image":"https://raw.githubusercontent.com/vraj-chovatiya/image-search-engine/main/screenshot.png","github":"https://github.com/vraj-chovatiya/image-search-engine"},{"id":9,"title":"QR Code Generator","discription":"QR Code Generator to make your own QR Codes. Support Link, Text, Dynamic Codes and more.","image":"https://i.imgur.com/EJXlmKv.png","github":"https://github.com/vraj-chovatiya/QR-Generator"},{"id":10,"title":"Book Store","discription":"The Book Store project is a MERN stack application allowing users to browse and purchase books online. The application is built using React, Node.js, Express, and MongoDB.","image":"https://i.imgur.com/Ozyv8aw.png","github":"https://github.com/vraj-chovatiya/BookStore"}]');
 
 },{}],"j7YWT":[function() {},{}],"fPXQE":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$ac65 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
