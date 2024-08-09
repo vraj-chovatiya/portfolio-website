@@ -73,8 +73,9 @@ const About = () => {
                     <p>
                         I am always eager to expand my knowledge and explore new technologies that can drive innovation and create impactful solutions. I look forward to connecting with like-minded professionals and exploring opportunities to collaborate on exciting projects.
                     </p>
+                    {/* https://drive.google.com/file/d/1LwvBzRpjYZtC3JkqiJ3zNxHuqLbihTnd/view?usp=sharing -- old */} 
                     <a
-                        href="https://drive.google.com/file/d/1LwvBzRpjYZtC3JkqiJ3zNxHuqLbihTnd/view?usp=sharing"
+                        href="https://drive.google.com/file/d/12bwIAw6o4X7HiYdamIS3DEHhmJurMSjq/view?usp=sharing"
                         className="codepen-button" target='_blank'
                     >
                         <span>Download CV</span>
