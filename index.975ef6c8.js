@@ -55679,7 +55679,7 @@ const About = ()=>{
                             columnNumber: 21
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                            href: "https://drive.google.com/file/d/1LwvBzRpjYZtC3JkqiJ3zNxHuqLbihTnd/view?usp=sharing",
+                            href: "https://drive.google.com/file/d/1Sz8lL8B0U6hzKcP8vYZUiIu9ZJKv_4MW/view?usp=sharing",
                             className: "codepen-button",
                             target: "_blank",
                             children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
@@ -55759,7 +55759,7 @@ const About = ()=>{
                         className: "work-item",
                         children: [
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
-                                children: "2+"
+                                children: "4+"
                             }, void 0, false, {
                                 fileName: "src/components/about/About.js",
                                 lineNumber: 95,
@@ -55782,7 +55782,7 @@ const About = ()=>{
                         className: "work-item",
                         children: [
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
-                                children: "119+"
+                                children: "250+"
                             }, void 0, false, {
                                 fileName: "src/components/about/About.js",
                                 lineNumber: 99,
