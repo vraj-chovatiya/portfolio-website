@@ -75,7 +75,7 @@ const About = () => {
                     </p>
                     {/* https://drive.google.com/file/d/1LwvBzRpjYZtC3JkqiJ3zNxHuqLbihTnd/view?usp=sharing -- old */} 
                     <a
-                        href="https://drive.google.com/file/d/1LwvBzRpjYZtC3JkqiJ3zNxHuqLbihTnd/view?usp=sharing"
+                        href="https://drive.google.com/file/d/1Sz8lL8B0U6hzKcP8vYZUiIu9ZJKv_4MW/view?usp=sharing"
                         className="codepen-button" target='_blank'
                     >
                         <span>Download CV</span>
@@ -92,11 +92,11 @@ const About = () => {
                     <p>React Project</p>
                 </div>
                 <div className="work-item">
-                    <h2>2+</h2>
+                    <h2>4+</h2>
                     <p>Month of Company experience</p>
                 </div>
                 <div className="work-item">
-                    <h2>119+</h2>
+                    <h2>250+</h2>
                     <p>DSA Questions Solved</p>
                 </div>
             </motion.div>

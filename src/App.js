@@ -7,7 +7,7 @@ import About from './components/about/About';
 import Education from './components/education/Education';
 import Experience from './components/experience/Experience';
 import Projects from './components/projects/Projects';
-import Contact from './components/contact/Contact';
+import Contact from './components/contact/Contact'; 
 import './app.css';
 import Blog from './components/blog/Blog';
 
